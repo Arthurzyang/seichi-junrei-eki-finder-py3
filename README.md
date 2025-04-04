@@ -1,4 +1,4 @@
-![Logo](images.png)
+![Cover](image.png)
 [English](#Seichi-Junrei-Eki-Finder) | [简体中文](#圣地巡礼公共交通车站搜索器) | [日本語](#聖地巡礼公共交通駅検索ツール)
 
 
