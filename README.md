@@ -58,7 +58,7 @@
    - **协议**: 遵循 CC BY-NC-SA 4.0（署名、非商业性使用、相同方式共享）。
 
 2. **Overpass API (OpenStreetMap)**
-   - **端点**: 参考：[Overpass APIs]((https://wiki.openstreetmap.org/wiki/Overpass_API)
+   - **端点**: 参考：[Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)
    - **查询**: 使用 Overpass QL 搜索目标坐标附近的轨道交通(`railway=station`)、(`station=subway`)。
    - **用途**: 根据经纬度和设定半径查找最近的站点。
    - **返回数据**: JSON 格式的站点节点信息。
