@@ -1,7 +1,7 @@
 
-[English](#english) | [简体中文](#chinese) | [日本語](#japanese)
+[English](#Seichi Junrei Eki Finder) | [简体中文](#圣地巡礼公共交通车站搜索器) | [日本語](#聖地巡礼公共交通駅検索ツール)
 
-## english 
+
 ## Seichi Junrei Eki Finder 
 
 This is a Python script that retrieves landmark information about anime Seichi Junrei travels based on the Bangumi ID through the [Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md). It uses the [Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API) to search for the nearest tram/subway station for each landmark, with a default initial search radius by 1 km and a maximum search radius by 4km. It calculates the distance between the landmark and the station and counts the number of landmarks associated with each station.
@@ -61,7 +61,6 @@ No configuration required, both are public APIs.
 - You can change the default search range by modifying the `initial_radius` parameter.
 
 
-## chinese
 ## 圣地巡礼公共交通车站搜索器 
 
 这是一个 Python 脚本，根据Bangumi作品ID，通过[Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md)获取对应动画的圣地巡礼地标信息，然后通过[Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)搜索离每个地标直线距离最近的轨道交通（电车/地铁）站点，默认初始搜索半径为1公里，默认最大搜索半径为4公里。计算地标与站点的距离，并统计每个站点的地标数量。
@@ -121,7 +120,6 @@ No configuration required, both are public APIs.
 - 可通过修改initial_radius参数调整搜索范围。
 
 
-## Japanese
 ## 聖地巡礼公共交通駅検索ツール
 
 これは、Bangumi作品IDを使用して[Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md)から聖地巡礼のランドマーク情報を取得し、その後[Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)を使用して各ランドマークから最も近い鉄道（電車/地下鉄）駅を検索するPythonスクリプトです。デフォルトの初期検索範囲は1km、最大検索範囲は4kmです。スクリプトは、ランドマークと駅の間の距離を計算し、各駅に関連するランドマークの数をカウントします。
