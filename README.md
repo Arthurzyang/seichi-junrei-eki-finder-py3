@@ -1,4 +1,4 @@
-# English - SeichiJunrei Eki Finder 
+# English - Seichi Junrei Eki Finder 
 
 This is a Python script that retrieves landmark information about anime Seichi Junrei travels based on the Bangumi ID through the [Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md). It uses the [Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API) to search for the nearest tram/subway station for each landmark, with a default initial search radius by 1 km and a maximum search radius by 4km. It calculates the distance between the landmark and the station and counts the number of landmarks associated with each station.
 
@@ -58,15 +58,15 @@ No configuration required, both are public APIs.
 
 # Chinese（中文） - 圣地巡礼公共交通车站搜索器 
 
-这是一个 Python 脚本，根据Bangumi作品ID，通过Anitabi APIs获取对应动画的圣地巡礼地标信息，然后通过Overpass APIs搜索离每个地标直线距离最近的轨道交通（电车/地铁）站点，默认初始搜索半径为1公里，默认最大搜索半径为4公里。计算地标与站点的距离，并统计每个站点的地标数量。
+这是一个 Python 脚本，根据Bangumi作品ID，通过[Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md)获取对应动画的圣地巡礼地标信息，然后通过[Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)搜索离每个地标直线距离最近的轨道交通（电车/地铁）站点，默认初始搜索半径为1公里，默认最大搜索半径为4公里。计算地标与站点的距离，并统计每个站点的地标数量。
 
 ## 功能
 
 1. **获取地标数据**
-   - 通过用户输入的Bangumi作品ID，从Anitabi APIs获取该作品的圣地巡礼地标详情。
+   - 通过用户输入的Bangumi作品ID，从[Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md)获取该作品的圣地巡礼地标详情。
 
 2. **查找最近站点**
-   - 使用 OpenStreetMap的Overpass API，根据地标的经纬度查找附近火车站或地铁站。
+   - 使用 OpenStreetMap的[Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)，根据地标的经纬度查找附近火车站或地铁站。
    - 逐步扩大搜索范围的策略（1000m->2000m->4000m）。
 
 3. **距离计算**
@@ -116,15 +116,15 @@ No configuration required, both are public APIs.
 
 # Japanese（日本語）- 聖地巡礼公共交通駅検索ツール
 
-これは、Bangumi作品IDを使用してAnitabi APIから聖地巡礼のランドマーク情報を取得し、その後Overpass APIを使用して各ランドマークから最も近い鉄道（電車/地下鉄）駅を検索するPythonスクリプトです。デフォルトの初期検索範囲は1km、最大検索範囲は4kmです。スクリプトは、ランドマークと駅の間の距離を計算し、各駅に関連するランドマークの数をカウントします。
+これは、Bangumi作品IDを使用して[Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md)から聖地巡礼のランドマーク情報を取得し、その後[Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)を使用して各ランドマークから最も近い鉄道（電車/地下鉄）駅を検索するPythonスクリプトです。デフォルトの初期検索範囲は1km、最大検索範囲は4kmです。スクリプトは、ランドマークと駅の間の距離を計算し、各駅に関連するランドマークの数をカウントします。
 
 ## 機能
 
 1. **ランドマークデータの取得**
-   - Bangumi作品IDを使用してAnitabi APIから聖地巡礼のランドマーク詳細を取得します。
+   - Bangumi作品IDを使用して[Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md)から聖地巡礼のランドマーク詳細を取得します。
 
 2. **最寄り駅の検索**
-   - OpenStreetMapのOverpass APIを使用して、ランドマークの緯度と経度を元に、最寄りの鉄道駅や地下鉄駅を検索します。
+   - OpenStreetMapの[Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)を使用して、ランドマークの緯度と経度を元に、最寄りの鉄道駅や地下鉄駅を検索します。
    - 検索範囲は順次拡大します（1000m -> 2000m -> 4000m）。
 
 3. **距離計算**
