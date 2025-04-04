@@ -1,17 +1,15 @@
 # English - SeichiJunrei Eki Finder 
 
-This is a Python script that retrieves landmark information for anime pilgrimage sites based on the Bangumi work ID through the Anitabi APIs. It then uses the Overpass APIs to search for the nearest railway (tram/subway) station to each landmark, with a default initial search radius of 1 kilometer and a maximum search radius of 4 kilometers. It calculates the distance between the landmark and the station and counts the number of landmarks associated with each station.
-
-This is a Python script that uses the Bangumi work ID to retrieve pilgrimage landmark information from the Anitabi API, then uses the Overpass API to search for the nearest rail transportation (tram/subway) stations to each landmark within a default initial search radius of 1 km and a maximum search radius of 4 km. The script calculates the distance between landmarks and stations and counts the number of landmarks associated with each station.
+This is a Python script that retrieves landmark information about anime Seichi Junrei travels based on the Bangumi ID through the [Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md). It uses the [Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API) to search for the nearest tram/subway station for each landmark, with a default initial search radius by 1 km and a maximum search radius by 4km. It calculates the distance between the landmark and the station and counts the number of landmarks associated with each station.
 
 ## Features
 
 1. **Get Landmark Data**
-   - Fetch the pilgrimage landmark details for a work using the Bangumi work ID from the Anitabi API.
+   - Fetch the landmark details from the [Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md), using the Bangumi ID.
 
 2. **Find Nearest Stations**
-   - Use the Overpass API from OpenStreetMap to search for nearby train or subway stations based on the landmark's latitude and longitude.
-   - The search radius is expanded gradually (1000m -> 2000m -> 4000m).
+   - Use the [Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)  from OpenStreetMap to get nearby stations based on the landmark's latitude and longitude.
+   - The search radius will expanded step by step (1000m -> 2000m -> 4000m). i.e. if not able to find a station, redius *= 2.
 
 3. **Distance Calculation**
    - Use the Haversine formula to calculate the geographical distance (km) between the landmarks and stations.
@@ -23,25 +21,25 @@ This is a Python script that uses the Bangumi work ID to retrieve pilgrimage lan
 
 ### Process
 
-1. Enter the Bangumi work ID.
+1. Enter the Bangumi ID of your anime. For example ,for [Shirobako](https://bangumi.tv/subject/110467), it's Bgm Id is 110467.
 2. Fetch and save the landmark data.
 3. Search for the nearest stations for each landmark and record the results.
-4. Save detailed station information and statistics, and output to a log.
+4. Save detailed station information and statistics, then recording logs.
 
 ## APIs
 
 1. **Anitabi API**
    - **Reference**: [Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md)
-   - **Parameters**: `haveImage` (optional, `true` filters landmarks with images, default is `false`)【This might not be effective】
-   - **Purpose**: Query pilgrimage landmark information for a specific anime based on its Bangumi entry ID. The Bangumi entry ID can be obtained from the entry's URL.
+   - **Parameters**: `haveImage` (optional, `true` filters landmarks with images, default is `false`)【This might not work】
+   - **Purpose**: Query landmark information for specific anime based on its Bangumi ID. 
    - **Response Data**: Landmark list containing fields like `id`, `name`, `geo`, `origin`, `originURL`, etc.
    - **License**: CC BY-NC-SA 4.0 (Attribution, Non-Commercial Use, ShareAlike).
 
 2. **Overpass API (OpenStreetMap)**
    - **Reference**: [Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)
-   - **Query**: Use Overpass QL to search for nearby rail transport stations (`railway=station`) or subway stations (`station=subway`) at the target coordinates.
+   - **Query**: Use Overpass QL to find nearby stations (`railway=station`) , (`station=subway`).
    - **Purpose**: Find the nearest stations based on latitude, longitude, and radius.
-   - **Response Data**: JSON format station node information.
+   - **Response Data**: JSON format station information.
 
 ### API KEYS
 
@@ -55,8 +53,8 @@ No configuration required, both are public APIs.
 - **`station_query.log`**: Log file.
 
 ### Tips
-- The Overpass API and Anitabi API may impose request rate limits, please use them moderately.
-- You can adjust the search range by modifying the `initial_radius` parameter.
+- The Overpass APIs and Anitabi APIs may have request rate limits, please don't send request frequently.
+- You can change the default search range by modifying the `initial_radius` parameter.
 
 # Chinese（中文） - 圣地巡礼公共交通车站搜索器 
 
