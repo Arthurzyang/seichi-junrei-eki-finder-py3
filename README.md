@@ -4,7 +4,7 @@
 
 ## Seichi Junrei Eki Finder 
 
-This is a Python script that retrieves Seichi Junrei landmarks through the [Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md). It uses the [Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API) to search for the nearest tram/subway station for each landmark, with a default initial search radius by 1 km and a maximum search radius by 8km. It calculates the distance between the landmark and the station and counts the number of landmarks associated with each station.
+This is a script that retrieves Seichi Junrei landmarks through the [Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md). It uses the [Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API) to search for the nearest tram/subway station for each landmark, with a default initial search radius by 1 km and a maximum search radius by 8km. It calculates the distance between the landmark and the station and counts the number of landmarks associated with each station.
 The reason that I create this tool is to support the travelers who want to plan their Seichi Junrei travels in Japan, especially for the cities with complex network like Tokyo :D You might find difficult when you try to plan your travel routes with various anime.
 
 ## Features
@@ -13,8 +13,8 @@ The reason that I create this tool is to support the travelers who want to plan 
    - Fetch the landmark details from the [Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md), using the Bangumi ID.
 
 2. **Find Nearest Stations**
-   - Use the [Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)  from OpenStreetMap to get nearby stations based on the landmark's latitude and longitude.
-   - The search radius will expanded step by step (1000m -> 2000m -> 4000m -> 8000m). i.e. if not able to find a station, redius *= 2, with a maximum by r = 8km.
+   - Use the [Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API) from OpenStreetMap to get nearby stations based on the landmark's latitude and longitude.
+   - The search radius will expanded step by step (1000m -> 2000m -> 4000m -> 8000m). i.e. if not able to find a station, redius *= 2, with a maximum r == 8km.
 
 3. **Distance Calculation**
    - Use the Haversine formula to calculate the geographical distance (km) between the landmarks and stations.
@@ -22,11 +22,11 @@ The reason that I create this tool is to support the travelers who want to plan 
 4. **Output Files**
    - Save the nearest station information for each landmark locally.
    - Count the number of landmarks associated with each station.
-   - Log files
+   - Log files.
 
 ### Process
 
-1. Enter the Bangumi ID of your anime. For example ,for [Shirobako](https://bangumi.tv/subject/110467), it's Bgm Id is 110467.
+1. Enter the Bangumi ID of your anime. For example ,for [Shirobako](https://bangumi.tv/subject/110467), it's Bangumi Id is 110467.
 2. Fetch and save the landmark data.
 3. Search for the nearest stations for each landmark and record the results.
 4. Save detailed station information and statistics, then recording logs.
@@ -64,7 +64,7 @@ No configuration required, both are public APIs.
 
 ## 圣地巡礼公共交通车站搜索器 
 
-这是一个 Python 脚本，根据Bangumi作品ID，通过[Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md)获取对应动画的圣地巡礼地标信息，然后通过[Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)搜索离每个地标直线距离最近的轨道交通（电车/地铁）站点，默认初始搜索半径为1公里，默认最大搜索半径为8公里。计算地标与站点的距离，并统计每个站点的地标数量。
+这是一个脚本，根据Bangumi作品ID，通过[Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md)获取对应动画的圣地巡礼地标信息，然后通过[Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)搜索离每个地标直线距离最近的轨道交通（电车/地铁）站点，默认初始搜索半径为1公里，默认最大搜索半径为8公里。计算地标与站点的距离，并统计每个站点的地标数量。
 
 ## 功能
 
