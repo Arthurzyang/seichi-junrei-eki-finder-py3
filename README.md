@@ -14,7 +14,7 @@ The reason that I create this tool is to support the travelers who want to plan 
 
 2. **Find Nearest Stations**
    - Use the [Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)  from OpenStreetMap to get nearby stations based on the landmark's latitude and longitude.
-   - The search radius will expanded step by step (1000m -> 2000m -> 4000m). i.e. if not able to find a station, redius *= 2.
+   - The search radius will expanded step by step (1000m -> 2000m -> 4000m). i.e. if not able to find a station, redius *= 2, with a maximum by r = 4km.
 
 3. **Distance Calculation**
    - Use the Haversine formula to calculate the geographical distance (km) between the landmarks and stations.
