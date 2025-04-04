@@ -51,14 +51,14 @@
 ## 使用到的 APIs
 
 1. **Anitabi API**
-   - **参考**: 参考：[Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md)
+   - **参考**: [Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md)
    - **参数**: `haveImage`（可选，`true` 筛选含图片的地标，默认 `false`）【此处疑似未生效】
    - **用途**: 根据Bangumi条目id，查询该动画的巡礼地标信息。Bangumi条目id可从该条目的URL获得。
    - **返回数据**: 地标列表，包含 `id`, `name`, `geo`, `origin`, `originURL` 等字段。
    - **协议**: 遵循 CC BY-NC-SA 4.0（署名、非商业性使用、相同方式共享）。
 
 2. **Overpass API (OpenStreetMap)**
-   - **端点**: 参考：[Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)
+   - **参考**: [Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)
    - **查询**: 使用 Overpass QL 搜索目标坐标附近的轨道交通(`railway=station`)、(`station=subway`)。
    - **用途**: 根据经纬度和设定半径查找最近的站点。
    - **返回数据**: JSON 格式的站点节点信息。
