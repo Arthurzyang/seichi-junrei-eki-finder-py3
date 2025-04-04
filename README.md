@@ -4,7 +4,8 @@
 
 ## Seichi Junrei Eki Finder 
 
-This is a Python script that retrieves landmark information about anime Seichi Junrei travels based on the Bangumi ID through the [Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md). It uses the [Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API) to search for the nearest tram/subway station for each landmark, with a default initial search radius by 1 km and a maximum search radius by 4km. It calculates the distance between the landmark and the station and counts the number of landmarks associated with each station.
+This is a Python script that retrieves Seichi Junrei landmarks through the [Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md). It uses the [Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API) to search for the nearest tram/subway station for each landmark, with a default initial search radius by 1 km and a maximum search radius by 4km. It calculates the distance between the landmark and the station and counts the number of landmarks associated with each station.
+The reason that I create this tool is to support the travelers who want to plan their Seichi Junrei travels in Japan, especially for the cities with complex network like Tokyo :D You might find difficult when you try to plan your travel routes with various anime.
 
 ## Features
 
