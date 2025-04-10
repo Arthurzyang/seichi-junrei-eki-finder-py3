@@ -50,14 +50,14 @@ The reason that I create this tool is to support the travelers who want to plan 
 
 No configuration required, both are public APIs.
 
-### Output Files
+## Output Files
 
 - **`{subject_id}_locates.json`**: Landmark data returned by the Anitabi API.
 - **`{subject_id}_stations.json`**: Landmark data with the nearest station information.
 - **`{subject_id}_station_counts.txt`**: Station statistics for travel planning.
 - **`station_query.log`**: Log file.
 
-### Tips
+## Tips
 - The Overpass APIs and Anitabi APIs may have request rate limits, please don't send request frequently.
 - You can change the default search range by modifying the `initial_radius` parameter.
 
@@ -109,14 +109,14 @@ No configuration required, both are public APIs.
 
 无需配置，均为公共APIs
 
-### 输出文件
+## 输出文件
 
 - **`{subject_id}_locates.json`**: Anitabi APIs返回的地标数据。
 - **`{subject_id}_stations.json`**: 地标信息与最近站点信息。
 - **`{subject_id}_station_counts.txt`**: 站点统计，用于旅行计划。
 - **`station_query.log`**: 日志。
 
-### Tips
+## Tips
 - Overpass API和Anitabi API可能会限制请求频率，请适度使用。
 - 可通过修改initial_radius参数调整搜索范围。
 
@@ -168,7 +168,7 @@ No configuration required, both are public APIs.
 
 設定不要、どちらも公開APIです。
 
-### 出力ファイル
+## 出力ファイル
 
 - **`{subject_id}_locates.json`**: Anitabi APIから返されたランドマークデータ。
 - **`{subject_id}_stations.json`**: ランドマーク情報と最寄り駅情報。
