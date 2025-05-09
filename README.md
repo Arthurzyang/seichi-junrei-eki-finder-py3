@@ -65,6 +65,7 @@ No configuration required, both are public APIs.
 ## 圣地巡礼公共交通车站搜索器 
 
 这是一个脚本，根据Bangumi作品ID，通过[Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md)获取对应动画的圣地巡礼地标信息，然后通过[Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)搜索离每个地标直线距离最近的轨道交通（电车/地铁）站点，默认初始搜索半径为1公里，默认最大搜索半径为8公里。计算地标与站点的距离，并统计每个站点的地标数量。
+我创建这个工具的目的是帮助想要规划日本圣地巡礼的旅行者，尤其是在像东京这样交通网络复杂的大城市 :D 当你尝试规划包含复数作品的旅行路线时，你可能会发现这很困难。
 
 ## 功能
 
