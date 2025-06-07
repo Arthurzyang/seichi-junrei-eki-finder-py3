@@ -4,10 +4,12 @@ from collections import Counter
 from src.utils import haversine
 from src.api_client import fetchNearestStations
 from src.logging_config import configureLogging
+import requests
 
 logger = configureLogging()
 OUTPUT_DIR = "../Outputs"
 
+"""
 def findNearestStation(targetLat, targetLon, initialRadius=1000):
     radius = initialRadius
 
@@ -39,6 +41,56 @@ def findNearestStation(targetLat, targetLon, initialRadius=1000):
 
     logger.warning(f"在 ({targetLat}, {targetLon}) 周围 {radius}m 半径范围内仍未找到站点，已标记为 null")
     return None
+"""
+
+def findNearestStation(targetLat, targetLon, initialRadius=1000):
+    radius = initialRadius
+
+    for _ in range(3):  # 尝试 1000m, 2000m, 4000m
+        data = fetchNearestStations(targetLat, targetLon, radius)
+        if not data:
+            return None
+
+        stations = []
+        station_id_to_name = {}
+        for element in data["elements"]:
+            if element["type"] == "node" and element.get("tags", {}).get("railway") == "station":
+                station_id = element["id"]
+                stationLat = element["lat"]
+                stationLon = element["lon"]
+                distance = haversine(targetLat, targetLon, stationLat, stationLon)
+                name = element.get("tags", {}).get("name", "Unknown")
+                stations.append({
+                    "id": station_id,
+                    "name": name,
+                    "lat": stationLat,
+                    "lon": stationLon,
+                    "distanceKm": distance
+                })
+                station_id_to_name[station_id] = name
+
+        station_lines = {}
+        for element in data["elements"]:
+            if element["type"] == "relation" and element.get("tags", {}).get("type") == "route":
+                line_name = element["tags"].get("name")
+                if not line_name:
+                    continue
+                for member in element.get("members", []):
+                    if member["type"] == "node" and member["ref"] in station_id_to_name:
+                        station_lines.setdefault(member["ref"], []).append(line_name)
+
+        if stations:
+            nearest = min(stations, key=lambda x: x["distanceKm"])
+            nearest["lines"] = station_lines.get(nearest["id"], [])
+            logger.info(f"在 {radius}m 范围内找到最近站点: {nearest['name']} (距离: {nearest['distanceKm']:.3f} 千米)")
+            return nearest
+
+        logger.warning(f"在 ({targetLat}, {targetLon}) 周围 {radius}m 范围内未找到站点，已扩大搜索半径")
+        radius *= 2
+
+    logger.warning(f"在 ({targetLat}, {targetLon}) 周围 {radius}m 半径范围内仍未找到站点，已标记为 null")
+    return None
+
 
 def analyzeAnitabiStations(subjectId, initialRadius=1000):
     from src.api_client import fetchAnitabiLandmarks
@@ -63,6 +115,8 @@ def analyzeAnitabiStations(subjectId, initialRadius=1000):
         logger.info(f"处理地标: {pointName} (ID: {pointId}, 来源: {origin})")
 
         station = findNearestStation(lat, lon, initialRadius)
+
+        """
         stationInfo = {
             "landmarkId": pointId,
             "landmarkName": pointName,
@@ -70,6 +124,18 @@ def analyzeAnitabiStations(subjectId, initialRadius=1000):
             "stationLat": station["lat"] if station else None,
             "stationLon": station["lon"] if station else None,
             "distanceKm": station["distanceKm"] if station else None,
+            "origin": origin,
+            "originUrl": originUrl
+        }
+        """
+        stationInfo = {
+            "landmarkId": pointId,
+            "landmarkName": pointName,
+            "stationName": station["name"] if station else None,
+            "stationLat": station["lat"] if station else None,
+            "stationLon": station["lon"] if station else None,
+            "distanceKm": station["distanceKm"] if station else None,
+            "lines": station["lines"] if station else [],
             "origin": origin,
             "originUrl": originUrl
         }

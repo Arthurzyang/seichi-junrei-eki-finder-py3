@@ -6,6 +6,7 @@ from src.logging_config import configureLogging
 logger = configureLogging()
 OUTPUT_DIR = "../Outputs"
 
+"""
 def fetchNearestStations(targetLat, targetLon, radius):
     query = f'[out:json][timeout:60];(node["railway"="station"](around:{radius},{targetLat},{targetLon});node["station"="subway"](around:{radius},{targetLat},{targetLon}););out body;>;out skel qt;'
     url = "https://overpass-api.de/api/interpreter"
@@ -21,6 +22,23 @@ def fetchNearestStations(targetLat, targetLon, radius):
     except requests.RequestException as e:
         logger.error(f"API 请求失败 (半径 {radius}m): {e}")
         return None
+"""
+
+def fetchNearestStations(lat, lon, radius):
+    overpass_url = "http://overpass-api.de/api/interpreter"
+    overpass_query = f"""
+    [out:json][timeout:25];
+    (
+      node["railway"="station"](around:{radius},{lat},{lon});
+      relation["route"="train"](around:{radius},{lat},{lon});
+    );
+    out body;
+    >;
+    out skel qt;
+    """
+    response = requests.get(overpass_url, params={'data': overpass_query})
+    data = response.json()
+    return data
 
 def fetchAnitabiLandmarks(subjectId):
     url = f"https://api.anitabi.cn/bangumi/{subjectId}/points/detail"

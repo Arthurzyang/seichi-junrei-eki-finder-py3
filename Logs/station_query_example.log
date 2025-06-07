@@ -474,3 +474,1052 @@
 2025-04-04 21:15:34,183 - INFO - 波田: 1 个地标
 2025-04-04 21:15:34,183 - INFO - 城端: 1 个地标
 2025-04-04 21:15:34,183 - INFO - 城北: 1 个地标
+2025-06-02 12:03:10,808 - DEBUG - Starting new HTTPS connection (1): api.anitabi.cn:443
+2025-06-02 12:03:10,860 - ERROR - 获取地标数据失败: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-06-02 12:03:10,860 - ERROR - 无法获取有效的地标数据
+2025-06-02 12:04:10,389 - DEBUG - Starting new HTTPS connection (1): api.anitabi.cn:443
+2025-06-02 12:04:13,026 - DEBUG - https://api.anitabi.cn:443 "GET /bangumi/110467/points/detail?haveImage=false HTTP/1.1" 200 None
+2025-06-02 12:04:13,037 - INFO - 地标信息已保存至: ../Outputs\110467_locates.json
+2025-06-02 12:04:13,037 - INFO - 开始分析作品: 作品_110467 (ID: 110467)
+2025-06-02 12:04:13,037 - INFO - 处理地标: 武蔵境駅 (ID: 5q87582w, 来源: Google Maps)
+2025-06-02 12:04:13,037 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:13,938 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.702%2C139.5433%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:04:13,939 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.052 千米)
+2025-06-02 12:04:13,939 - INFO - 处理地标: 武蔵野プレイス (ID: 5q8757tu, 来源: Google Maps)
+2025-06-02 12:04:13,940 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:14,466 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7013%2C139.5437%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:04:14,466 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.084 千米)
+2025-06-02 12:04:14,467 - INFO - 处理地标: 武蔵野スイングホール (ID: 5q87590s, 来源: Google Maps)
+2025-06-02 12:04:14,467 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:15,021 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7024%2C139.5429%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:04:15,022 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.096 千米)
+2025-06-02 12:04:15,022 - INFO - 处理地标: スキップ通り (ID: 5q875a07, 来源: Google Maps)
+2025-06-02 12:04:15,024 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:15,518 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7031%2C139.5441%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:04:15,520 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.119 千米)
+2025-06-02 12:04:15,520 - INFO - 处理地标: ベーカリーズカフェクラウン武蔵境店 (ID: 5q875b22, 来源: Google Maps)
+2025-06-02 12:04:15,521 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:16,932 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7027%2C139.5419%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:04:16,932 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.192 千米)
+2025-06-02 12:04:16,932 - INFO - 处理地标: さかい亭 (ID: 5q875aon, 来源: Google Maps)
+2025-06-02 12:04:16,933 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:17,473 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7046%2C139.5422%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:04:17,474 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.321 千米)
+2025-06-02 12:04:17,474 - INFO - 处理地标: 東京女子大学正門 (ID: pz76mfsof, 来源: Anitabi@月即别)
+2025-06-02 12:04:17,476 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:18,034 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7092%2C139.5914%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 579
+2025-06-02 12:04:18,034 - INFO - 在 1000m 范围内找到最近站点: 西荻窪 (距离: 0.958 千米)
+2025-06-02 12:04:18,034 - INFO - 处理地标: くら寿司小金井店 (ID: 5q875em2, 来源: Google Maps)
+2025-06-02 12:04:18,035 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:18,522 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7127%2C139.5112%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 234
+2025-06-02 12:04:18,522 - WARNING - 在 (35.7127, 139.5112) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:04:18,523 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:20,079 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7127%2C139.5112%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 806
+2025-06-02 12:04:20,081 - INFO - 在 2000m 范围内找到最近站点: 武蔵小金井 (距离: 1.346 千米)
+2025-06-02 12:04:20,081 - INFO - 处理地标: 神戸市民広場駅 (ID: 5q875kmm, 来源: Google Maps)
+2025-06-02 12:04:20,083 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:20,572 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C34.665%2C135.2125%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1380
+2025-06-02 12:04:20,573 - INFO - 在 1000m 范围内找到最近站点: 市民広場（コンベンションセンター） (距离: 0.023 千米)
+2025-06-02 12:04:20,574 - INFO - 处理地标: ウルソン武蔵境店 (ID: 5q875btn, 来源: Google Maps)
+2025-06-02 12:04:20,574 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:21,086 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7045%2C139.5396%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:04:21,087 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.472 千米)
+2025-06-02 12:04:21,087 - INFO - 处理地标: TAIRAYA武蔵境店 (ID: 5q875bht, 来源: Google Maps)
+2025-06-02 12:04:21,088 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:21,569 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7052%2C139.5438%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:04:21,570 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.351 千米)
+2025-06-02 12:04:21,571 - INFO - 处理地标: 武蔵境通り交差点 (ID: 5q875bj7, 来源: Google Maps)
+2025-06-02 12:04:21,573 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:22,069 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.706%2C139.5439%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:04:22,069 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.440 千米)
+2025-06-02 12:04:22,070 - INFO - 处理地标: 桜橋交差点 (ID: 5q875chw, 来源: Google Maps)
+2025-06-02 12:04:22,071 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:22,558 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7095%2C139.5437%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:04:22,559 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.829 千米)
+2025-06-02 12:04:22,559 - INFO - 处理地标: 境浄水場西交差点 (ID: 5q875cmn, 来源: Google Maps)
+2025-06-02 12:04:22,561 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:23,056 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7123%2C139.5438%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 234
+2025-06-02 12:04:23,057 - WARNING - 在 (35.7123, 139.5438) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:04:23,057 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:23,547 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7123%2C139.5438%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1168
+2025-06-02 12:04:23,549 - INFO - 在 2000m 范围内找到最近站点: 武蔵境 (距离: 1.140 千米)
+2025-06-02 12:04:23,549 - INFO - 处理地标: ガスト関前店 (ID: 5q875cpl, 来源: Google Maps)
+2025-06-02 12:04:23,551 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:24,053 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7127%2C139.5415%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 234
+2025-06-02 12:04:24,054 - WARNING - 在 (35.7127, 139.5415) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:04:24,057 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:24,582 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7127%2C139.5415%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1033
+2025-06-02 12:04:24,584 - INFO - 在 2000m 范围内找到最近站点: 武蔵境 (距离: 1.204 千米)
+2025-06-02 12:04:24,584 - INFO - 处理地标: ひぐち橋公園 (ID: 5q875d37, 来源: Google Maps)
+2025-06-02 12:04:24,586 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:25,086 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7124%2C139.5405%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 234
+2025-06-02 12:04:25,087 - WARNING - 在 (35.7124, 139.5405) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:04:25,089 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:25,583 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7124%2C139.5405%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1033
+2025-06-02 12:04:25,583 - INFO - 在 2000m 范围内找到最近站点: 武蔵境 (距离: 1.191 千米)
+2025-06-02 12:04:25,583 - INFO - 处理地标: 境橋交差点 (ID: 5q875czj, 来源: Google Maps)
+2025-06-02 12:04:25,584 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:26,073 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.711%2C139.5369%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 234
+2025-06-02 12:04:26,074 - WARNING - 在 (35.711, 139.5369) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:04:26,074 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:26,551 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.711%2C139.5369%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1231
+2025-06-02 12:04:26,552 - INFO - 在 2000m 范围内找到最近站点: 武蔵境 (距离: 1.178 千米)
+2025-06-02 12:04:26,552 - INFO - 处理地标: 境二丁目第一交差点 (ID: 5q875dfn, 来源: Google Maps)
+2025-06-02 12:04:26,554 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:27,082 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7044%2C139.5434%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:04:27,084 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.265 千米)
+2025-06-02 12:04:27,084 - INFO - 处理地标: つばさ家武蔵境店 (ID: 5q875dfv, 来源: Google Maps)
+2025-06-02 12:04:27,086 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:27,579 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.704%2C139.546%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:04:27,580 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.290 千米)
+2025-06-02 12:04:27,580 - INFO - 处理地标: 吉祥寺駅 (ID: 5q875ddu, 来源: Google Maps)
+2025-06-02 12:04:27,582 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:28,094 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7031%2C139.5798%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:04:28,094 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.046 千米)
+2025-06-02 12:04:28,095 - INFO - 处理地标: 旧バウスシアター (ID: 5q875d87, 来源: Google Maps)
+2025-06-02 12:04:28,095 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:28,579 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7061%2C139.581%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:04:28,579 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.335 千米)
+2025-06-02 12:04:28,580 - INFO - 处理地标: サンロード（4話） (ID: 5q875dcg, 来源: Google Maps)
+2025-06-02 12:04:28,581 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:29,102 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7057%2C139.5808%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:04:29,103 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.288 千米)
+2025-06-02 12:04:29,103 - INFO - 处理地标: サンロード（12話） (ID: 5q875cyt, 来源: Google Maps)
+2025-06-02 12:04:29,105 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:29,603 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7041%2C139.58%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:04:29,603 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.110 千米)
+2025-06-02 12:04:29,604 - INFO - 处理地标: 黒毛和牛専門店さとう吉祥寺店 (ID: 5q875dvn, 来源: Google Maps)
+2025-06-02 12:04:29,604 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:30,093 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.704%2C139.579%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:04:30,093 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.152 千米)
+2025-06-02 12:04:30,093 - INFO - 处理地标: 旧アニメイト (ID: 5q875dt6, 来源: Google Maps)
+2025-06-02 12:04:30,094 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:30,585 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7035%2C139.5771%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:04:30,585 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.292 千米)
+2025-06-02 12:04:30,586 - INFO - 处理地标: パルコ前 (ID: 5q875ee1, 来源: Google Maps)
+2025-06-02 12:04:30,586 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:31,116 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7034%2C139.5779%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:04:31,116 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.219 千米)
+2025-06-02 12:04:31,117 - INFO - 处理地标: 丸井前 (ID: 5q875e10, 来源: Google Maps)
+2025-06-02 12:04:31,117 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:31,658 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.702%2C139.5795%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:04:31,659 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.083 千米)
+2025-06-02 12:04:31,660 - INFO - 处理地标: 井の頭公園七井橋 (ID: 5q875du8, 来源: Google Maps)
+2025-06-02 12:04:31,661 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:32,178 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6999%2C139.5773%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:04:32,178 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.380 千米)
+2025-06-02 12:04:32,178 - INFO - 处理地标: 井の頭公園弁財天 (ID: 5q875ed4, 来源: Google Maps)
+2025-06-02 12:04:32,179 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:32,683 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6994%2C139.5747%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:04:32,684 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.601 千米)
+2025-06-02 12:04:32,684 - INFO - 处理地标: 松亭 (ID: 5q875e0p, 来源: Google Maps)
+2025-06-02 12:04:32,686 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:33,240 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7031%2C139.5884%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:04:33,240 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.730 千米)
+2025-06-02 12:04:33,240 - INFO - 处理地标: 武蔵小金井駅 (ID: 5q875e8d, 来源: Google Maps)
+2025-06-02 12:04:33,241 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:33,747 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7011%2C139.5066%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 615
+2025-06-02 12:04:33,747 - INFO - 在 1000m 范围内找到最近站点: 武蔵小金井 (距离: 0.022 千米)
+2025-06-02 12:04:33,748 - INFO - 处理地标: 小金井橋交差点 (ID: 5q875e15, 来源: Google Maps)
+2025-06-02 12:04:33,749 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:34,293 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7126%2C139.508%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 234
+2025-06-02 12:04:34,294 - WARNING - 在 (35.7126, 139.508) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:04:34,296 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:34,845 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7126%2C139.508%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 806
+2025-06-02 12:04:34,846 - INFO - 在 2000m 范围内找到最近站点: 武蔵小金井 (距离: 1.280 千米)
+2025-06-02 12:04:34,846 - INFO - 处理地标: 調布飛行場 (ID: 5q875f90, 来源: Google Maps)
+2025-06-02 12:04:34,848 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:35,360 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.672%2C139.5304%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 234
+2025-06-02 12:04:35,360 - WARNING - 在 (35.672, 139.5304) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:04:35,363 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:35,882 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.672%2C139.5304%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1213
+2025-06-02 12:04:35,883 - INFO - 在 2000m 范围内找到最近站点: 多磨 (距离: 1.312 千米)
+2025-06-02 12:04:35,883 - INFO - 处理地标: 小平大沼町交差点 (ID: 5q875f3m, 来源: Google Maps)
+2025-06-02 12:04:35,885 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:37,036 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7404%2C139.5041%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 234
+2025-06-02 12:04:37,037 - WARNING - 在 (35.7404, 139.5041) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:04:37,040 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:37,546 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7404%2C139.5041%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 612
+2025-06-02 12:04:37,548 - INFO - 在 2000m 范围内找到最近站点: 小平 (距离: 1.478 千米)
+2025-06-02 12:04:37,548 - INFO - 处理地标: 小平大沼町歩道橋 (ID: 5q875f3s, 来源: Google Maps)
+2025-06-02 12:04:37,550 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:38,037 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7397%2C139.5067%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 234
+2025-06-02 12:04:38,038 - WARNING - 在 (35.7397, 139.5067) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:04:38,040 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:38,902 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7397%2C139.5067%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 612
+2025-06-02 12:04:38,903 - INFO - 在 2000m 范围内找到最近站点: 花小金井 (距离: 1.614 千米)
+2025-06-02 12:04:38,904 - INFO - 处理地标: 栄町一丁目 (ID: 5q875f0q, 来源: Google Maps)
+2025-06-02 12:04:38,905 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:40,075 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7509%2C139.4723%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 779
+2025-06-02 12:04:40,076 - INFO - 在 1000m 范围内找到最近站点: 久米川 (距离: 0.139 千米)
+2025-06-02 12:04:40,076 - INFO - 处理地标: 清水五丁目交差点 (ID: 5q875f5t, 来源: Google Maps)
+2025-06-02 12:04:40,077 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:40,549 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7473%2C139.4444%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 617
+2025-06-02 12:04:40,550 - INFO - 在 1000m 范围内找到最近站点: 武蔵大和 (距离: 0.988 千米)
+2025-06-02 12:04:40,550 - INFO - 处理地标: 武蔵大和駅西交差点 (ID: 5q875exl, 来源: Google Maps)
+2025-06-02 12:04:40,552 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:41,028 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7555%2C139.4433%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 617
+2025-06-02 12:04:41,029 - INFO - 在 1000m 范围内找到最近站点: 武蔵大和 (距离: 0.108 千米)
+2025-06-02 12:04:41,030 - INFO - 处理地标: 東伏見四丁目交差点 (ID: 5q875eob, 来源: Google Maps)
+2025-06-02 12:04:41,032 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:41,896 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7231%2C139.5652%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 565
+2025-06-02 12:04:41,896 - INFO - 在 1000m 范围内找到最近站点: 東伏見 (距离: 0.629 千米)
+2025-06-02 12:04:41,896 - INFO - 处理地标: 出玉王田無店 (ID: 5q875fl2, 来源: Google Maps)
+2025-06-02 12:04:41,896 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:43,015 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7356%2C139.5247%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 234
+2025-06-02 12:04:43,017 - WARNING - 在 (35.7356, 139.5247) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:04:43,019 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:43,511 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7356%2C139.5247%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 820
+2025-06-02 12:04:43,512 - INFO - 在 2000m 范围内找到最近站点: 花小金井 (距离: 1.473 千米)
+2025-06-02 12:04:43,513 - INFO - 处理地标: 田無タワー (ID: 5q875fvg, 来源: Google Maps)
+2025-06-02 12:04:43,515 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:44,009 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7354%2C139.5232%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 234
+2025-06-02 12:04:44,011 - WARNING - 在 (35.7354, 139.5232) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:04:44,013 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:45,566 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7354%2C139.5232%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 820
+2025-06-02 12:04:45,569 - INFO - 在 2000m 范围内找到最近站点: 花小金井 (距离: 1.364 千米)
+2025-06-02 12:04:45,569 - INFO - 处理地标: 小泉牧場 (ID: 5q875fte, 来源: Google Maps)
+2025-06-02 12:04:45,571 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:46,098 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7544%2C139.5853%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 739
+2025-06-02 12:04:46,098 - INFO - 在 1000m 范围内找到最近站点: 大泉学園 (距离: 0.555 千米)
+2025-06-02 12:04:46,099 - INFO - 处理地标: モトラッド杉並 (ID: 5q875ffd, 来源: Google Maps)
+2025-06-02 12:04:46,099 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:47,266 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7136%2C139.6144%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 234
+2025-06-02 12:04:47,269 - WARNING - 在 (35.7136, 139.6144) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:04:47,270 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:47,793 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7136%2C139.6144%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1012
+2025-06-02 12:04:47,794 - INFO - 在 2000m 范围内找到最近站点: 荻窪 (距离: 1.140 千米)
+2025-06-02 12:04:47,795 - INFO - 处理地标: 阿佐ヶ谷駅前(パール商店街入り口) (ID: 5q875fl3, 来源: Google Maps)
+2025-06-02 12:04:47,796 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:48,286 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7044%2C139.6367%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 723
+2025-06-02 12:04:48,286 - INFO - 在 1000m 范围内找到最近站点: 阿佐ケ谷 (距离: 0.121 千米)
+2025-06-02 12:04:48,286 - INFO - 处理地标: うさぎや (ID: 5q875gp3, 来源: Google Maps)
+2025-06-02 12:04:48,287 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:48,863 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7053%2C139.6377%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 723
+2025-06-02 12:04:48,864 - INFO - 在 1000m 范围内找到最近站点: 阿佐ケ谷 (距离: 0.208 千米)
+2025-06-02 12:04:48,864 - INFO - 处理地标: 阿佐ヶ谷駅 (ID: 5q875ghu, 来源: Google Maps)
+2025-06-02 12:04:48,865 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:49,382 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7049%2C139.6357%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 723
+2025-06-02 12:04:49,382 - INFO - 在 1000m 范围内找到最近站点: 阿佐ケ谷 (距离: 0.022 千米)
+2025-06-02 12:04:49,382 - INFO - 处理地标: 上井草駅 (ID: 5q875ga2, 来源: Google Maps)
+2025-06-02 12:04:49,383 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:50,811 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7252%2C139.6035%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 663
+2025-06-02 12:04:50,813 - INFO - 在 1000m 范围内找到最近站点: 上井草 (距离: 0.040 千米)
+2025-06-02 12:04:50,813 - INFO - 处理地标: 上井草駅踏切 (ID: 5q875ge1, 来源: Google Maps)
+2025-06-02 12:04:50,816 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:51,325 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.725%2C139.6039%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 481
+2025-06-02 12:04:51,327 - INFO - 在 1000m 范围内找到最近站点: 上井草 (距离: 0.081 千米)
+2025-06-02 12:04:51,327 - INFO - 处理地标: 株式会社ボンズ (ID: 5q875geq, 来源: Google Maps)
+2025-06-02 12:04:51,329 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:51,884 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7249%2C139.6151%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 592
+2025-06-02 12:04:51,885 - INFO - 在 1000m 范围内找到最近站点: 井荻 (距离: 0.024 千米)
+2025-06-02 12:04:51,885 - INFO - 处理地标: 下井草五丁目交差点 (ID: 5q875g1s, 来源: Google Maps)
+2025-06-02 12:04:51,887 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:52,397 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7234%2C139.6142%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 479
+2025-06-02 12:04:52,398 - INFO - 在 1000m 范围内找到最近站点: 井荻 (距离: 0.168 千米)
+2025-06-02 12:04:52,398 - INFO - 处理地标: 四面道交差点 (ID: 5q875git, 来源: Google Maps)
+2025-06-02 12:04:52,400 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:53,862 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.708%2C139.615%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 630
+2025-06-02 12:04:53,863 - INFO - 在 1000m 范围内找到最近站点: 荻窪 (距离: 0.608 千米)
+2025-06-02 12:04:53,863 - INFO - 处理地标: スタジオカラー (ID: 5q875goy, 来源: Google Maps)
+2025-06-02 12:04:53,865 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:54,416 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7035%2C139.5976%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 579
+2025-06-02 12:04:54,417 - INFO - 在 1000m 范围内找到最近站点: 西荻窪 (距离: 0.183 千米)
+2025-06-02 12:04:54,418 - INFO - 处理地标: スタジオT＆T (ID: 5q875hhx, 来源: Google Maps)
+2025-06-02 12:04:54,420 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:54,958 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6969%2C139.6973%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 2595
+2025-06-02 12:04:54,960 - INFO - 在 1000m 范围内找到最近站点: 西武新宿 (距离: 0.261 千米)
+2025-06-02 12:04:54,960 - INFO - 处理地标: 談話室滝沢 (ID: 5q875h8m, 来源: Google Maps)
+2025-06-02 12:04:54,962 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:56,725 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6906%2C139.7021%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 2827
+2025-06-02 12:04:56,727 - INFO - 在 1000m 范围内找到最近站点: 新宿 (距离: 0.188 千米)
+2025-06-02 12:04:56,727 - INFO - 处理地标: 淀橋交差点 (ID: 5q875gxh, 来源: Google Maps)
+2025-06-02 12:04:56,728 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:57,296 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6963%2C139.687%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1262
+2025-06-02 12:04:57,297 - INFO - 在 1000m 范围内找到最近站点: 中野坂上 (距离: 0.384 千米)
+2025-06-02 12:04:57,297 - INFO - 处理地标: 旬鮮酒場天狗新宿店 (ID: 5q875gup, 来源: Google Maps)
+2025-06-02 12:04:57,299 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:57,867 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.694%2C139.6986%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 2648
+2025-06-02 12:04:57,867 - INFO - 在 1000m 范围内找到最近站点: 新宿西口 (距离: 0.109 千米)
+2025-06-02 12:04:57,867 - INFO - 处理地标: H＆M新宿店 (ID: 5q875guu, 来源: Google Maps)
+2025-06-02 12:04:57,868 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:04:58,384 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6914%2C139.7053%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 2352
+2025-06-02 12:04:58,384 - INFO - 在 1000m 范围内找到最近站点: 新宿三丁目 (距离: 0.088 千米)
+2025-06-02 12:04:58,384 - INFO - 处理地标: TOHMA西早稲田ビル (ID: 5q875hje, 来源: Google Maps)
+2025-06-02 12:04:58,385 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:00,288 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7081%2C139.7122%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1411
+2025-06-02 12:05:00,290 - INFO - 在 1000m 范围内找到最近站点: 西早稲田 (距离: 0.286 千米)
+2025-06-02 12:05:00,291 - INFO - 处理地标: ウノサワビル (ID: 5q875gyn, 来源: Google Maps)
+2025-06-02 12:05:00,294 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:00,877 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7077%2C139.6831%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1145
+2025-06-02 12:05:00,879 - INFO - 在 1000m 范围内找到最近站点: 東中野 (距离: 0.041 千米)
+2025-06-02 12:05:00,880 - INFO - 处理地标: VICTOR STUDIO (ID: 5q875h10, 来源: Google Maps)
+2025-06-02 12:05:00,882 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:01,423 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.675%2C139.7123%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1613
+2025-06-02 12:05:01,425 - INFO - 在 1000m 范围内找到最近站点: 国立競技場 (距离: 0.586 千米)
+2025-06-02 12:05:01,425 - INFO - 处理地标: 秋葉原駅電気街口 (ID: 5q875hy5, 来源: Google Maps)
+2025-06-02 12:05:01,427 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:02,963 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6985%2C139.7725%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 2228
+2025-06-02 12:05:02,965 - INFO - 在 1000m 范围内找到最近站点: 秋葉原 (距离: 0.058 千米)
+2025-06-02 12:05:02,965 - INFO - 处理地标: UDX (ID: 5q875hpx, 来源: Google Maps)
+2025-06-02 12:05:02,967 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:03,894 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7001%2C139.7723%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 2565
+2025-06-02 12:05:03,895 - INFO - 在 1000m 范围内找到最近站点: 秋葉原 (距离: 0.207 千米)
+2025-06-02 12:05:03,895 - INFO - 处理地标: ソフマップ (ID: 5q875hty, 来源: Google Maps)
+2025-06-02 12:05:03,896 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:04,458 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7003%2C139.7711%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 2565
+2025-06-02 12:05:04,460 - INFO - 在 1000m 范围内找到最近站点: 秋葉原 (距离: 0.283 千米)
+2025-06-02 12:05:04,461 - INFO - 处理地标: 雷門 (ID: 5q875hsj, 来源: Google Maps)
+2025-06-02 12:05:04,463 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:04,993 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.711%2C139.7963%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1644
+2025-06-02 12:05:05,002 - INFO - 在 1000m 范围内找到最近站点: 浅草 (距离: 0.138 千米)
+2025-06-02 12:05:05,002 - INFO - 处理地标: スーパードライホール (ID: 5q875i06, 来源: Google Maps)
+2025-06-02 12:05:05,004 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:05,883 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7097%2C139.8002%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1853
+2025-06-02 12:05:05,883 - INFO - 在 1000m 范围内找到最近站点: 浅草 (距离: 0.250 千米)
+2025-06-02 12:05:05,884 - INFO - 处理地标: 東京スカイツリー (ID: 5q875i7r, 来源: Google Maps)
+2025-06-02 12:05:05,884 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:07,401 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7104%2C139.8106%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1444
+2025-06-02 12:05:07,403 - INFO - 在 1000m 范围内找到最近站点: とうきょうスカイツリー (距离: 0.128 千米)
+2025-06-02 12:05:07,404 - INFO - 处理地标: ラ ブティック ドゥ ジョエル・ロブション 丸の内店 (ID: 5q875hpz, 来源: Google Maps)
+2025-06-02 12:05:07,405 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:07,972 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6783%2C139.7625%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 3589
+2025-06-02 12:05:07,975 - INFO - 在 1000m 范围内找到最近站点: 二重橋前〈丸の内〉 (距离: 0.239 千米)
+2025-06-02 12:05:07,975 - INFO - 处理地标: 新丸の内ビル (ID: 5q875i4u, 来源: Google Maps)
+2025-06-02 12:05:07,977 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:08,813 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6825%2C139.7644%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 3598
+2025-06-02 12:05:08,814 - INFO - 在 1000m 范围内找到最近站点: 東京 (距离: 0.074 千米)
+2025-06-02 12:05:08,815 - INFO - 处理地标: スカイホップバス乗り場 (ID: 5q875img, 来源: Google Maps)
+2025-06-02 12:05:08,816 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:09,436 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6797%2C139.7638%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 3457
+2025-06-02 12:05:09,438 - INFO - 在 1000m 范围内找到最近站点: 二重橋前〈丸の内〉 (距离: 0.209 千米)
+2025-06-02 12:05:09,439 - INFO - 处理地标: 日比谷セントラルビル (ID: 5q875igx, 来源: Google Maps)
+2025-06-02 12:05:09,441 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:10,001 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6697%2C139.7545%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 2779
+2025-06-02 12:05:10,003 - INFO - 在 1000m 范围内找到最近站点: 内幸町 (距离: 0.084 千米)
+2025-06-02 12:05:10,003 - INFO - 处理地标: 日比谷シティー (ID: 5q875ipv, 来源: Google Maps)
+2025-06-02 12:05:10,005 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:10,872 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6701%2C139.7542%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 2740
+2025-06-02 12:05:10,873 - INFO - 在 1000m 范围内找到最近站点: 内幸町 (距离: 0.128 千米)
+2025-06-02 12:05:10,873 - INFO - 处理地标: 知性ビル (ID: 5q875ieh, 来源: Google Maps)
+2025-06-02 12:05:10,874 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:12,414 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.677%2C139.7327%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1674
+2025-06-02 12:05:12,666 - INFO - 在 1000m 范围内找到最近站点: 赤坂見附 (距离: 0.442 千米)
+2025-06-02 12:05:12,666 - INFO - 处理地标: 知性ビル周辺路地 (ID: 5q875iwz, 来源: Google Maps)
+2025-06-02 12:05:12,667 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:13,234 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.677%2C139.7331%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1641
+2025-06-02 12:05:13,235 - INFO - 在 1000m 范围内找到最近站点: 赤坂見附 (距离: 0.407 千米)
+2025-06-02 12:05:13,235 - INFO - 处理地标: 大月駅 (ID: 5q875iym, 来源: Google Maps)
+2025-06-02 12:05:13,236 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:14,333 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6131%2C138.9427%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 744
+2025-06-02 12:05:14,334 - INFO - 在 1000m 范围内找到最近站点: 大月 (距离: 0.030 千米)
+2025-06-02 12:05:14,335 - INFO - 处理地标: 嵐山サービスエリア(下り) (ID: 5q875irq, 来源: Google Maps)
+2025-06-02 12:05:14,336 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:14,862 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C36.0861%2C139.291%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:05:14,863 - WARNING - 在 (36.0861, 139.291) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:05:14,866 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:15,349 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C36.0861%2C139.291%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:05:15,351 - WARNING - 在 (36.0861, 139.291) 周围 2000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:05:15,353 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:15,855 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A4000%2C36.0861%2C139.291%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:05:15,856 - WARNING - 在 (36.0861, 139.291) 周围 4000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:05:15,856 - WARNING - 在 (36.0861, 139.291) 周围 8000m 半径范围内仍未找到站点，已标记为 null
+2025-06-02 12:05:15,856 - INFO - 处理地标: 嵐山サービスエリア(上り) (ID: 5q875ivz, 来源: Google Maps)
+2025-06-02 12:05:15,859 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:17,906 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C36.0827%2C139.2975%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:05:17,908 - WARNING - 在 (36.0827, 139.2975) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:05:17,910 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:18,376 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C36.0827%2C139.2975%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:05:18,376 - WARNING - 在 (36.0827, 139.2975) 周围 2000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:05:18,377 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:18,861 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A4000%2C36.0827%2C139.2975%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:05:18,862 - WARNING - 在 (36.0827, 139.2975) 周围 4000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:05:18,862 - WARNING - 在 (36.0827, 139.2975) 周围 8000m 半径范围内仍未找到站点，已标记为 null
+2025-06-02 12:05:18,862 - INFO - 处理地标: 富士急ハイランド (ID: 5q875j4b, 来源: Google Maps)
+2025-06-02 12:05:18,864 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:19,339 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.4853%2C138.7773%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 483
+2025-06-02 12:05:19,339 - INFO - 在 1000m 范围内找到最近站点: 富士急ハイランド (距离: 0.623 千米)
+2025-06-02 12:05:19,339 - INFO - 处理地标: 浜松エアーパーク (ID: 5q875jgq, 来源: Google Maps)
+2025-06-02 12:05:19,340 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:20,782 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C34.7475%2C137.712%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:05:20,783 - WARNING - 在 (34.7475, 137.712) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:05:20,785 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:21,273 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C34.7475%2C137.712%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:05:21,274 - WARNING - 在 (34.7475, 137.712) 周围 2000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:05:21,276 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:21,803 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A4000%2C34.7475%2C137.712%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 958
+2025-06-02 12:05:21,804 - INFO - 在 4000m 范围内找到最近站点: 曳馬 (距离: 3.114 千米)
+2025-06-02 12:05:21,805 - INFO - 处理地标: 長野自動車道 (ID: 5q875j5j, 来源: Google Maps)
+2025-06-02 12:05:21,806 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:22,297 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C36.2291%2C137.9385%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 533
+2025-06-02 12:05:22,298 - INFO - 在 1000m 范围内找到最近站点: 大庭 (距离: 0.367 千米)
+2025-06-02 12:05:22,298 - INFO - 处理地标: 長野インター (ID: 5q875jrw, 来源: Google Maps)
+2025-06-02 12:05:22,299 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:22,825 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C36.2302%2C137.9402%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 533
+2025-06-02 12:05:22,827 - INFO - 在 1000m 范围内找到最近站点: 大庭 (距离: 0.378 千米)
+2025-06-02 12:05:22,828 - INFO - 处理地标: 三溝駅周辺 (ID: 5q875j9v, 来源: Google Maps)
+2025-06-02 12:05:22,831 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:24,374 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C36.213%2C137.8918%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 452
+2025-06-02 12:05:24,374 - INFO - 在 1000m 范围内找到最近站点: 三溝 (距离: 0.038 千米)
+2025-06-02 12:05:24,375 - INFO - 处理地标: 波田小前 (ID: 5q875jp0, 来源: Google Maps)
+2025-06-02 12:05:24,376 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:24,907 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C36.2013%2C137.8556%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 449
+2025-06-02 12:05:24,908 - INFO - 在 1000m 范围内找到最近站点: 波田 (距离: 0.129 千米)
+2025-06-02 12:05:24,908 - INFO - 处理地标: 道の駅風穴の里 (ID: 5q875jcc, 来源: Google Maps)
+2025-06-02 12:05:24,910 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:25,394 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C36.1536%2C137.7528%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:05:25,395 - WARNING - 在 (36.1536, 137.7528) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:05:25,397 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:25,889 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C36.1536%2C137.7528%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:05:25,890 - WARNING - 在 (36.1536, 137.7528) 周围 2000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:05:25,892 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:26,423 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A4000%2C36.1536%2C137.7528%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:05:26,424 - WARNING - 在 (36.1536, 137.7528) 周围 4000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:05:26,424 - WARNING - 在 (36.1536, 137.7528) 周围 8000m 半径范围内仍未找到站点，已标记为 null
+2025-06-02 12:05:26,424 - INFO - 处理地标: 奈川渡ダム (ID: 5q875jcn, 来源: Google Maps)
+2025-06-02 12:05:26,425 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:26,914 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C36.1316%2C137.7189%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:05:26,916 - WARNING - 在 (36.1316, 137.7189) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:05:26,919 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:27,456 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C36.1316%2C137.7189%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:05:27,457 - WARNING - 在 (36.1316, 137.7189) 周围 2000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:05:27,459 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:27,956 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A4000%2C36.1316%2C137.7189%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:05:27,956 - WARNING - 在 (36.1316, 137.7189) 周围 4000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:05:27,957 - WARNING - 在 (36.1316, 137.7189) 周围 8000m 半径范围内仍未找到站点，已标记为 null
+2025-06-02 12:05:27,957 - INFO - 处理地标: 上高地帝国ホテル (ID: 5q875jpq, 来源: Google Maps)
+2025-06-02 12:05:27,958 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:29,084 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C36.2426%2C137.6287%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:05:29,085 - WARNING - 在 (36.2426, 137.6287) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:05:29,086 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:29,563 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C36.2426%2C137.6287%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:05:29,564 - WARNING - 在 (36.2426, 137.6287) 周围 2000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:05:29,566 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:30,053 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A4000%2C36.2426%2C137.6287%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:05:30,054 - WARNING - 在 (36.2426, 137.6287) 周围 4000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:05:30,054 - WARNING - 在 (36.2426, 137.6287) 周围 8000m 半径范围内仍未找到站点，已标记为 null
+2025-06-02 12:05:30,055 - INFO - 处理地标: 南砺市起業家支援センター (ID: 5q875ju3, 来源: Google Maps)
+2025-06-02 12:05:30,057 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:30,538 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C36.512%2C136.9015%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:05:30,538 - WARNING - 在 (36.512, 136.9015) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:05:30,541 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:31,072 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C36.512%2C136.9015%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 447
+2025-06-02 12:05:31,073 - INFO - 在 2000m 范围内找到最近站点: 城端 (距离: 1.125 千米)
+2025-06-02 12:05:31,073 - INFO - 处理地标: 中国放送本社 (ID: 5q875k2y, 来源: Google Maps)
+2025-06-02 12:05:31,073 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:05:31,580 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C34.4019%2C132.4616%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 728
+2025-06-02 12:05:31,580 - INFO - 在 1000m 范围内找到最近站点: 城北 (距离: 0.462 千米)
+2025-06-02 12:05:31,590 - INFO - 站点详细信息已保存至: ../Outputs\110467_stations.json
+2025-06-02 12:05:31,591 - INFO - 站点统计结果已保存至: ../Outputs\110467_station_counts.txt
+2025-06-02 12:05:31,591 - INFO - 
+作品 '作品_110467' 地标总数: 87
+2025-06-02 12:05:31,591 - INFO - 最近站点统计结果:
+2025-06-02 12:05:31,591 - INFO - 武蔵境: 16 个地标
+2025-06-02 12:05:31,591 - INFO - 吉祥寺: 11 个地标
+2025-06-02 12:05:31,591 - INFO - 武蔵小金井: 3 个地标
+2025-06-02 12:05:31,591 - INFO - 花小金井: 3 个地标
+2025-06-02 12:05:31,591 - INFO - 阿佐ケ谷: 3 个地标
+2025-06-02 12:05:31,591 - INFO - 秋葉原: 3 个地标
+2025-06-02 12:05:31,591 - INFO - 西荻窪: 2 个地标
+2025-06-02 12:05:31,591 - INFO - 武蔵大和: 2 个地标
+2025-06-02 12:05:31,591 - INFO - 荻窪: 2 个地标
+2025-06-02 12:05:31,591 - INFO - 上井草: 2 个地标
+2025-06-02 12:05:31,591 - INFO - 井荻: 2 个地标
+2025-06-02 12:05:31,591 - INFO - 浅草: 2 个地标
+2025-06-02 12:05:31,591 - INFO - 二重橋前〈丸の内〉: 2 个地标
+2025-06-02 12:05:31,591 - INFO - 内幸町: 2 个地标
+2025-06-02 12:05:31,591 - INFO - 赤坂見附: 2 个地标
+2025-06-02 12:05:31,591 - INFO - 大庭: 2 个地标
+2025-06-02 12:05:31,591 - INFO - 市民広場（コンベンションセンター）: 1 个地标
+2025-06-02 12:05:31,591 - INFO - 多磨: 1 个地标
+2025-06-02 12:05:31,591 - INFO - 小平: 1 个地标
+2025-06-02 12:05:31,591 - INFO - 久米川: 1 个地标
+2025-06-02 12:05:31,591 - INFO - 東伏見: 1 个地标
+2025-06-02 12:05:31,591 - INFO - 大泉学園: 1 个地标
+2025-06-02 12:05:31,591 - INFO - 西武新宿: 1 个地标
+2025-06-02 12:05:31,591 - INFO - 新宿: 1 个地标
+2025-06-02 12:05:31,592 - INFO - 中野坂上: 1 个地标
+2025-06-02 12:05:31,592 - INFO - 新宿西口: 1 个地标
+2025-06-02 12:05:31,592 - INFO - 新宿三丁目: 1 个地标
+2025-06-02 12:05:31,592 - INFO - 西早稲田: 1 个地标
+2025-06-02 12:05:31,592 - INFO - 東中野: 1 个地标
+2025-06-02 12:05:31,592 - INFO - 国立競技場: 1 个地标
+2025-06-02 12:05:31,592 - INFO - とうきょうスカイツリー: 1 个地标
+2025-06-02 12:05:31,592 - INFO - 東京: 1 个地标
+2025-06-02 12:05:31,592 - INFO - 大月: 1 个地标
+2025-06-02 12:05:31,592 - INFO - 富士急ハイランド: 1 个地标
+2025-06-02 12:05:31,592 - INFO - 曳馬: 1 个地标
+2025-06-02 12:05:31,592 - INFO - 三溝: 1 个地标
+2025-06-02 12:05:31,592 - INFO - 波田: 1 个地标
+2025-06-02 12:05:31,592 - INFO - 城端: 1 个地标
+2025-06-02 12:05:31,592 - INFO - 城北: 1 个地标
+2025-06-02 12:30:09,226 - DEBUG - Starting new HTTPS connection (1): api.anitabi.cn:443
+2025-06-02 12:30:11,211 - DEBUG - https://api.anitabi.cn:443 "GET /bangumi/110467/points/detail?haveImage=false HTTP/1.1" 200 None
+2025-06-02 12:30:11,215 - INFO - 地标信息已保存至: ../Outputs\110467_locates.json
+2025-06-02 12:30:11,215 - INFO - 开始分析作品: 作品_110467 (ID: 110467)
+2025-06-02 12:30:11,215 - INFO - 处理地标: 武蔵境駅 (ID: 5q87582w, 来源: Google Maps)
+2025-06-02 12:30:11,216 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:11,980 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.702%2C139.5433%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:30:11,981 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.052 千米)
+2025-06-02 12:30:11,982 - INFO - 处理地标: 武蔵野プレイス (ID: 5q8757tu, 来源: Google Maps)
+2025-06-02 12:30:11,983 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:12,533 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7013%2C139.5437%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:30:12,534 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.084 千米)
+2025-06-02 12:30:12,534 - INFO - 处理地标: 武蔵野スイングホール (ID: 5q87590s, 来源: Google Maps)
+2025-06-02 12:30:12,535 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:13,038 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7024%2C139.5429%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:30:13,039 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.096 千米)
+2025-06-02 12:30:13,039 - INFO - 处理地标: スキップ通り (ID: 5q875a07, 来源: Google Maps)
+2025-06-02 12:30:13,041 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:13,586 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7031%2C139.5441%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:30:13,587 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.119 千米)
+2025-06-02 12:30:13,587 - INFO - 处理地标: ベーカリーズカフェクラウン武蔵境店 (ID: 5q875b22, 来源: Google Maps)
+2025-06-02 12:30:13,589 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:16,873 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7027%2C139.5419%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:30:16,874 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.192 千米)
+2025-06-02 12:30:16,875 - INFO - 处理地标: さかい亭 (ID: 5q875aon, 来源: Google Maps)
+2025-06-02 12:30:16,876 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:17,418 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7046%2C139.5422%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:30:17,419 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.321 千米)
+2025-06-02 12:30:17,420 - INFO - 处理地标: 東京女子大学正門 (ID: pz76mfsof, 来源: Anitabi@月即别)
+2025-06-02 12:30:17,422 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:17,951 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7092%2C139.5914%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 579
+2025-06-02 12:30:17,952 - INFO - 在 1000m 范围内找到最近站点: 西荻窪 (距离: 0.958 千米)
+2025-06-02 12:30:17,953 - INFO - 处理地标: くら寿司小金井店 (ID: 5q875em2, 来源: Google Maps)
+2025-06-02 12:30:17,954 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:18,451 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7127%2C139.5112%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:30:18,451 - WARNING - 在 (35.7127, 139.5112) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:30:18,453 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:22,918 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7127%2C139.5112%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 804
+2025-06-02 12:30:22,919 - INFO - 在 2000m 范围内找到最近站点: 武蔵小金井 (距离: 1.346 千米)
+2025-06-02 12:30:22,919 - INFO - 处理地标: 神戸市民広場駅 (ID: 5q875kmm, 来源: Google Maps)
+2025-06-02 12:30:22,921 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:23,457 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C34.665%2C135.2125%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1380
+2025-06-02 12:30:23,457 - INFO - 在 1000m 范围内找到最近站点: 市民広場（コンベンションセンター） (距离: 0.023 千米)
+2025-06-02 12:30:23,457 - INFO - 处理地标: ウルソン武蔵境店 (ID: 5q875btn, 来源: Google Maps)
+2025-06-02 12:30:23,459 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:24,003 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7045%2C139.5396%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:30:24,003 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.472 千米)
+2025-06-02 12:30:24,003 - INFO - 处理地标: TAIRAYA武蔵境店 (ID: 5q875bht, 来源: Google Maps)
+2025-06-02 12:30:24,004 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:24,527 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7052%2C139.5438%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:30:24,527 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.351 千米)
+2025-06-02 12:30:24,528 - INFO - 处理地标: 武蔵境通り交差点 (ID: 5q875bj7, 来源: Google Maps)
+2025-06-02 12:30:24,528 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:27,000 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.706%2C139.5439%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:30:27,000 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.440 千米)
+2025-06-02 12:30:27,000 - INFO - 处理地标: 桜橋交差点 (ID: 5q875chw, 来源: Google Maps)
+2025-06-02 12:30:27,001 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:27,500 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7095%2C139.5437%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:30:27,500 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.829 千米)
+2025-06-02 12:30:27,500 - INFO - 处理地标: 境浄水場西交差点 (ID: 5q875cmn, 来源: Google Maps)
+2025-06-02 12:30:27,501 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:28,002 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7123%2C139.5438%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:30:28,003 - WARNING - 在 (35.7123, 139.5438) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:30:28,004 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:28,526 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7123%2C139.5438%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1168
+2025-06-02 12:30:28,527 - INFO - 在 2000m 范围内找到最近站点: 武蔵境 (距离: 1.140 千米)
+2025-06-02 12:30:28,527 - INFO - 处理地标: ガスト関前店 (ID: 5q875cpl, 来源: Google Maps)
+2025-06-02 12:30:28,528 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:29,964 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7127%2C139.5415%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:30:29,964 - WARNING - 在 (35.7127, 139.5415) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:30:29,965 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:30,479 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7127%2C139.5415%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1033
+2025-06-02 12:30:30,480 - INFO - 在 2000m 范围内找到最近站点: 武蔵境 (距离: 1.204 千米)
+2025-06-02 12:30:30,480 - INFO - 处理地标: ひぐち橋公園 (ID: 5q875d37, 来源: Google Maps)
+2025-06-02 12:30:30,482 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:31,007 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7124%2C139.5405%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:30:31,007 - WARNING - 在 (35.7124, 139.5405) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:30:31,008 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:31,538 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7124%2C139.5405%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1033
+2025-06-02 12:30:31,538 - INFO - 在 2000m 范围内找到最近站点: 武蔵境 (距离: 1.191 千米)
+2025-06-02 12:30:31,539 - INFO - 处理地标: 境橋交差点 (ID: 5q875czj, 来源: Google Maps)
+2025-06-02 12:30:31,539 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:32,058 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.711%2C139.5369%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:30:32,059 - WARNING - 在 (35.711, 139.5369) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:30:32,062 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:51,455 - DEBUG - Starting new HTTPS connection (1): api.anitabi.cn:443
+2025-06-02 12:30:53,429 - DEBUG - https://api.anitabi.cn:443 "GET /bangumi/110467/points/detail?haveImage=false HTTP/1.1" 200 None
+2025-06-02 12:30:53,432 - INFO - 地标信息已保存至: ../Outputs\110467_locates.json
+2025-06-02 12:30:53,432 - INFO - 开始分析作品: 作品_110467 (ID: 110467)
+2025-06-02 12:30:53,432 - INFO - 处理地标: 武蔵境駅 (ID: 5q87582w, 来源: Google Maps)
+2025-06-02 12:30:53,433 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:53,957 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.702%2C139.5433%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:30:53,958 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.052 千米)
+2025-06-02 12:30:53,959 - INFO - 处理地标: 武蔵野プレイス (ID: 5q8757tu, 来源: Google Maps)
+2025-06-02 12:30:53,961 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:54,465 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7013%2C139.5437%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:30:54,473 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.084 千米)
+2025-06-02 12:30:54,473 - INFO - 处理地标: 武蔵野スイングホール (ID: 5q87590s, 来源: Google Maps)
+2025-06-02 12:30:54,474 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:54,999 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7024%2C139.5429%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:30:55,000 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.096 千米)
+2025-06-02 12:30:55,000 - INFO - 处理地标: スキップ通り (ID: 5q875a07, 来源: Google Maps)
+2025-06-02 12:30:55,001 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:55,496 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7031%2C139.5441%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:30:55,497 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.119 千米)
+2025-06-02 12:30:55,497 - INFO - 处理地标: ベーカリーズカフェクラウン武蔵境店 (ID: 5q875b22, 来源: Google Maps)
+2025-06-02 12:30:55,497 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:56,008 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7027%2C139.5419%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:30:56,009 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.192 千米)
+2025-06-02 12:30:56,010 - INFO - 处理地标: さかい亭 (ID: 5q875aon, 来源: Google Maps)
+2025-06-02 12:30:56,011 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:57,237 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7046%2C139.5422%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:30:57,238 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.321 千米)
+2025-06-02 12:30:57,239 - INFO - 处理地标: 東京女子大学正門 (ID: pz76mfsof, 来源: Anitabi@月即别)
+2025-06-02 12:30:57,240 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:58,805 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7092%2C139.5914%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 578
+2025-06-02 12:30:58,806 - INFO - 在 1000m 范围内找到最近站点: 西荻窪 (距离: 0.958 千米)
+2025-06-02 12:30:58,806 - INFO - 处理地标: くら寿司小金井店 (ID: 5q875em2, 来源: Google Maps)
+2025-06-02 12:30:58,808 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:30:59,995 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7127%2C139.5112%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:30:59,996 - WARNING - 在 (35.7127, 139.5112) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:30:59,997 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:00,538 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7127%2C139.5112%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 804
+2025-06-02 12:31:00,538 - INFO - 在 2000m 范围内找到最近站点: 武蔵小金井 (距离: 1.346 千米)
+2025-06-02 12:31:00,538 - INFO - 处理地标: 神戸市民広場駅 (ID: 5q875kmm, 来源: Google Maps)
+2025-06-02 12:31:00,539 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:01,040 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C34.665%2C135.2125%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1380
+2025-06-02 12:31:01,041 - INFO - 在 1000m 范围内找到最近站点: 市民広場（コンベンションセンター） (距离: 0.023 千米)
+2025-06-02 12:31:01,041 - INFO - 处理地标: ウルソン武蔵境店 (ID: 5q875btn, 来源: Google Maps)
+2025-06-02 12:31:01,043 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:01,583 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7045%2C139.5396%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:31:01,584 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.472 千米)
+2025-06-02 12:31:01,584 - INFO - 处理地标: TAIRAYA武蔵境店 (ID: 5q875bht, 来源: Google Maps)
+2025-06-02 12:31:01,587 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:02,139 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7052%2C139.5438%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:31:02,140 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.351 千米)
+2025-06-02 12:31:02,140 - INFO - 处理地标: 武蔵境通り交差点 (ID: 5q875bj7, 来源: Google Maps)
+2025-06-02 12:31:02,140 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:02,631 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.706%2C139.5439%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:31:02,633 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.440 千米)
+2025-06-02 12:31:02,633 - INFO - 处理地标: 桜橋交差点 (ID: 5q875chw, 来源: Google Maps)
+2025-06-02 12:31:02,635 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:03,153 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7095%2C139.5437%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:31:03,153 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.829 千米)
+2025-06-02 12:31:03,153 - INFO - 处理地标: 境浄水場西交差点 (ID: 5q875cmn, 来源: Google Maps)
+2025-06-02 12:31:03,154 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:03,637 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7123%2C139.5438%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:31:03,638 - WARNING - 在 (35.7123, 139.5438) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:31:03,640 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:04,181 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7123%2C139.5438%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1168
+2025-06-02 12:31:04,181 - INFO - 在 2000m 范围内找到最近站点: 武蔵境 (距离: 1.140 千米)
+2025-06-02 12:31:04,181 - INFO - 处理地标: ガスト関前店 (ID: 5q875cpl, 来源: Google Maps)
+2025-06-02 12:31:04,182 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:04,681 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7127%2C139.5415%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:31:04,681 - WARNING - 在 (35.7127, 139.5415) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:31:04,683 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:05,187 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7127%2C139.5415%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1033
+2025-06-02 12:31:05,188 - INFO - 在 2000m 范围内找到最近站点: 武蔵境 (距离: 1.204 千米)
+2025-06-02 12:31:05,188 - INFO - 处理地标: ひぐち橋公園 (ID: 5q875d37, 来源: Google Maps)
+2025-06-02 12:31:05,189 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:06,699 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7124%2C139.5405%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:31:06,699 - WARNING - 在 (35.7124, 139.5405) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:31:06,700 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:07,198 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7124%2C139.5405%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1033
+2025-06-02 12:31:07,200 - INFO - 在 2000m 范围内找到最近站点: 武蔵境 (距离: 1.191 千米)
+2025-06-02 12:31:07,200 - INFO - 处理地标: 境橋交差点 (ID: 5q875czj, 来源: Google Maps)
+2025-06-02 12:31:07,202 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:07,691 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.711%2C139.5369%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:31:07,692 - WARNING - 在 (35.711, 139.5369) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:31:07,694 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:08,850 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.711%2C139.5369%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1229
+2025-06-02 12:31:08,851 - INFO - 在 2000m 范围内找到最近站点: 武蔵境 (距离: 1.178 千米)
+2025-06-02 12:31:08,852 - INFO - 处理地标: 境二丁目第一交差点 (ID: 5q875dfn, 来源: Google Maps)
+2025-06-02 12:31:08,854 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:09,346 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7044%2C139.5434%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:31:09,347 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.265 千米)
+2025-06-02 12:31:09,347 - INFO - 处理地标: つばさ家武蔵境店 (ID: 5q875dfv, 来源: Google Maps)
+2025-06-02 12:31:09,347 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:10,757 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.704%2C139.546%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:31:10,757 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.290 千米)
+2025-06-02 12:31:10,757 - INFO - 处理地标: 吉祥寺駅 (ID: 5q875ddu, 来源: Google Maps)
+2025-06-02 12:31:10,758 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:11,252 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7031%2C139.5798%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:31:11,253 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.046 千米)
+2025-06-02 12:31:11,253 - INFO - 处理地标: 旧バウスシアター (ID: 5q875d87, 来源: Google Maps)
+2025-06-02 12:31:11,255 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:11,764 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7061%2C139.581%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:31:11,765 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.335 千米)
+2025-06-02 12:31:11,765 - INFO - 处理地标: サンロード（4話） (ID: 5q875dcg, 来源: Google Maps)
+2025-06-02 12:31:11,766 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:12,272 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7057%2C139.5808%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:31:12,273 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.288 千米)
+2025-06-02 12:31:12,274 - INFO - 处理地标: サンロード（12話） (ID: 5q875cyt, 来源: Google Maps)
+2025-06-02 12:31:12,276 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:12,786 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7041%2C139.58%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:31:12,787 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.110 千米)
+2025-06-02 12:31:12,788 - INFO - 处理地标: 黒毛和牛専門店さとう吉祥寺店 (ID: 5q875dvn, 来源: Google Maps)
+2025-06-02 12:31:12,789 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:13,344 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.704%2C139.579%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:31:13,345 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.152 千米)
+2025-06-02 12:31:13,346 - INFO - 处理地标: 旧アニメイト (ID: 5q875dt6, 来源: Google Maps)
+2025-06-02 12:31:13,348 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:13,856 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7035%2C139.5771%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:31:13,857 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.292 千米)
+2025-06-02 12:31:13,857 - INFO - 处理地标: パルコ前 (ID: 5q875ee1, 来源: Google Maps)
+2025-06-02 12:31:13,857 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:14,403 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7034%2C139.5779%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:31:14,403 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.219 千米)
+2025-06-02 12:31:14,403 - INFO - 处理地标: 丸井前 (ID: 5q875e10, 来源: Google Maps)
+2025-06-02 12:31:14,404 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:14,925 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.702%2C139.5795%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:31:14,925 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.083 千米)
+2025-06-02 12:31:14,925 - INFO - 处理地标: 井の頭公園七井橋 (ID: 5q875du8, 来源: Google Maps)
+2025-06-02 12:31:14,926 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:15,461 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6999%2C139.5773%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:31:15,462 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.380 千米)
+2025-06-02 12:31:15,462 - INFO - 处理地标: 井の頭公園弁財天 (ID: 5q875ed4, 来源: Google Maps)
+2025-06-02 12:31:15,463 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:15,971 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6994%2C139.5747%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:31:15,971 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.601 千米)
+2025-06-02 12:31:15,971 - INFO - 处理地标: 松亭 (ID: 5q875e0p, 来源: Google Maps)
+2025-06-02 12:31:15,972 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:16,466 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7031%2C139.5884%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 847
+2025-06-02 12:31:16,466 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.730 千米)
+2025-06-02 12:31:16,466 - INFO - 处理地标: 武蔵小金井駅 (ID: 5q875e8d, 来源: Google Maps)
+2025-06-02 12:31:16,467 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:31:16,975 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7011%2C139.5066%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 614
+2025-06-02 12:31:16,975 - INFO - 在 1000m 范围内找到最近站点: 武蔵小金井 (距离: 0.022 千米)
+2025-06-02 12:31:16,975 - INFO - 处理地标: 小金井橋交差点 (ID: 5q875e15, 来源: Google Maps)
+2025-06-02 12:31:16,976 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:33:27,006 - DEBUG - Starting new HTTPS connection (1): api.anitabi.cn:443
+2025-06-02 12:33:28,893 - DEBUG - https://api.anitabi.cn:443 "GET /bangumi/110467/points/detail?haveImage=false HTTP/1.1" 200 None
+2025-06-02 12:33:28,896 - INFO - 地标信息已保存至: ../Outputs\110467_locates.json
+2025-06-02 12:33:28,896 - INFO - 开始分析作品: 作品_110467 (ID: 110467)
+2025-06-02 12:33:28,897 - INFO - 处理地标: 武蔵境駅 (ID: 5q87582w, 来源: Google Maps)
+2025-06-02 12:33:28,897 - DEBUG - Starting new HTTP connection (1): overpass-api.de:80
+2025-06-02 12:33:29,401 - DEBUG - http://overpass-api.de:80 "GET /api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.702%2C139.5433%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:33:29,402 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.052 千米)
+2025-06-02 12:37:29,784 - DEBUG - Starting new HTTPS connection (1): api.anitabi.cn:443
+2025-06-02 12:37:33,076 - DEBUG - https://api.anitabi.cn:443 "GET /bangumi/110467/points/detail?haveImage=false HTTP/1.1" 200 None
+2025-06-02 12:37:33,283 - INFO - 地标信息已保存至: ../Outputs\110467_locates.json
+2025-06-02 12:37:33,284 - INFO - 开始分析作品: 作品_110467 (ID: 110467)
+2025-06-02 12:37:33,284 - INFO - 处理地标: 武蔵境駅 (ID: 5q87582w, 来源: Google Maps)
+2025-06-02 12:37:33,285 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:37:33,747 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.702%2C139.5433%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 569
+2025-06-02 12:37:33,748 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.052 千米)
+2025-06-02 12:37:33,748 - INFO - 处理地标: 武蔵野プレイス (ID: 5q8757tu, 来源: Google Maps)
+2025-06-02 12:37:33,749 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:37:34,246 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7013%2C139.5437%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 569
+2025-06-02 12:37:34,247 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.084 千米)
+2025-06-02 12:37:34,247 - INFO - 处理地标: 武蔵野スイングホール (ID: 5q87590s, 来源: Google Maps)
+2025-06-02 12:37:34,248 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:37:34,734 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7024%2C139.5429%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 569
+2025-06-02 12:37:34,735 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.096 千米)
+2025-06-02 12:37:34,735 - INFO - 处理地标: スキップ通り (ID: 5q875a07, 来源: Google Maps)
+2025-06-02 12:37:34,736 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:37:36,282 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7031%2C139.5441%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 569
+2025-06-02 12:37:36,283 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.119 千米)
+2025-06-02 12:37:36,283 - INFO - 处理地标: ベーカリーズカフェクラウン武蔵境店 (ID: 5q875b22, 来源: Google Maps)
+2025-06-02 12:37:36,284 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:37:37,396 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7027%2C139.5419%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 569
+2025-06-02 12:37:37,397 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.192 千米)
+2025-06-02 12:37:37,397 - INFO - 处理地标: さかい亭 (ID: 5q875aon, 来源: Google Maps)
+2025-06-02 12:37:37,398 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:37:37,876 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7046%2C139.5422%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 569
+2025-06-02 12:37:37,876 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.321 千米)
+2025-06-02 12:37:37,877 - INFO - 处理地标: 東京女子大学正門 (ID: pz76mfsof, 来源: Anitabi@月即别)
+2025-06-02 12:37:37,877 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:37:38,392 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7092%2C139.5914%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 579
+2025-06-02 12:37:38,393 - INFO - 在 1000m 范围内找到最近站点: 西荻窪 (距离: 0.958 千米)
+2025-06-02 12:37:38,394 - INFO - 处理地标: くら寿司小金井店 (ID: 5q875em2, 来源: Google Maps)
+2025-06-02 12:37:38,395 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:37:39,536 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7127%2C139.5112%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:37:39,536 - WARNING - 在 (35.7127, 139.5112) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:37:39,538 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:37:41,040 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7127%2C139.5112%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 806
+2025-06-02 12:37:41,041 - INFO - 在 2000m 范围内找到最近站点: 武蔵小金井 (距离: 1.346 千米)
+2025-06-02 12:37:41,041 - INFO - 处理地标: 神戸市民広場駅 (ID: 5q875kmm, 来源: Google Maps)
+2025-06-02 12:37:41,041 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:37:41,551 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C34.665%2C135.2125%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1380
+2025-06-02 12:37:41,552 - INFO - 在 1000m 范围内找到最近站点: 市民広場（コンベンションセンター） (距离: 0.023 千米)
+2025-06-02 12:37:41,552 - INFO - 处理地标: ウルソン武蔵境店 (ID: 5q875btn, 来源: Google Maps)
+2025-06-02 12:37:41,553 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:37:42,059 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7045%2C139.5396%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 568
+2025-06-02 12:37:42,059 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.472 千米)
+2025-06-02 12:37:42,059 - INFO - 处理地标: TAIRAYA武蔵境店 (ID: 5q875bht, 来源: Google Maps)
+2025-06-02 12:37:42,060 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:37:42,542 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7052%2C139.5438%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 569
+2025-06-02 12:37:42,542 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.351 千米)
+2025-06-02 12:37:42,542 - INFO - 处理地标: 武蔵境通り交差点 (ID: 5q875bj7, 来源: Google Maps)
+2025-06-02 12:37:42,543 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:37:43,035 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.706%2C139.5439%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 569
+2025-06-02 12:37:43,035 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.440 千米)
+2025-06-02 12:37:43,035 - INFO - 处理地标: 桜橋交差点 (ID: 5q875chw, 来源: Google Maps)
+2025-06-02 12:37:43,036 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:45:28,867 - DEBUG - Starting new HTTPS connection (1): api.anitabi.cn:443
+2025-06-02 12:45:31,035 - DEBUG - https://api.anitabi.cn:443 "GET /bangumi/110467/points/detail?haveImage=false HTTP/1.1" 200 None
+2025-06-02 12:45:31,038 - INFO - 地标信息已保存至: ../Outputs\110467_locates.json
+2025-06-02 12:45:31,039 - INFO - 开始分析作品: 作品_110467 (ID: 110467)
+2025-06-02 12:45:31,039 - INFO - 处理地标: 武蔵境駅 (ID: 5q87582w, 来源: Google Maps)
+2025-06-02 12:45:31,040 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:45:31,910 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.702%2C139.5433%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.702%2C139.5433%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:45:36,697 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.052 千米)
+2025-06-02 12:45:36,698 - INFO - 处理地标: 武蔵野プレイス (ID: 5q8757tu, 来源: Google Maps)
+2025-06-02 12:45:36,699 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:45:37,491 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7013%2C139.5437%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7013%2C139.5437%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:45:38,181 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.084 千米)
+2025-06-02 12:45:38,181 - INFO - 处理地标: 武蔵野スイングホール (ID: 5q87590s, 来源: Google Maps)
+2025-06-02 12:45:38,181 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:45:39,019 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7024%2C139.5429%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7024%2C139.5429%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:45:39,959 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.096 千米)
+2025-06-02 12:45:39,960 - INFO - 处理地标: スキップ通り (ID: 5q875a07, 来源: Google Maps)
+2025-06-02 12:45:39,961 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:45:40,789 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7031%2C139.5441%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7031%2C139.5441%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:45:52,667 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.119 千米)
+2025-06-02 12:45:52,668 - INFO - 处理地标: ベーカリーズカフェクラウン武蔵境店 (ID: 5q875b22, 来源: Google Maps)
+2025-06-02 12:45:52,668 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:45:53,366 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7027%2C139.5419%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7027%2C139.5419%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:46:05,752 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.192 千米)
+2025-06-02 12:46:05,753 - INFO - 处理地标: さかい亭 (ID: 5q875aon, 来源: Google Maps)
+2025-06-02 12:46:05,753 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:46:06,570 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7046%2C139.5422%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7046%2C139.5422%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:46:10,455 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.321 千米)
+2025-06-02 12:46:10,455 - INFO - 处理地标: 東京女子大学正門 (ID: pz76mfsof, 来源: Anitabi@月即别)
+2025-06-02 12:46:10,456 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:46:11,329 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7092%2C139.5914%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7092%2C139.5914%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:46:12,850 - INFO - 在 1000m 范围内找到最近站点: 西荻窪 (距离: 0.958 千米)
+2025-06-02 12:46:12,850 - INFO - 处理地标: くら寿司小金井店 (ID: 5q875em2, 来源: Google Maps)
+2025-06-02 12:46:12,851 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:46:13,453 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7127%2C139.5112%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7127%2C139.5112%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 234
+2025-06-02 12:46:13,453 - WARNING - 在 (35.7127, 139.5112) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:46:13,454 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:46:14,197 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7127%2C139.5112%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A2000%2C35.7127%2C139.5112%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:46:16,528 - INFO - 在 2000m 范围内找到最近站点: 武蔵小金井 (距离: 1.346 千米)
+2025-06-02 12:46:16,529 - INFO - 处理地标: 神戸市民広場駅 (ID: 5q875kmm, 来源: Google Maps)
+2025-06-02 12:46:16,530 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:46:17,393 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C34.665%2C135.2125%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C34.665%2C135.2125%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1379
+2025-06-02 12:46:17,395 - INFO - 在 1000m 范围内找到最近站点: 市民広場（コンベンションセンター） (距离: 0.023 千米)
+2025-06-02 12:46:17,395 - INFO - 处理地标: ウルソン武蔵境店 (ID: 5q875btn, 来源: Google Maps)
+2025-06-02 12:46:17,397 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:46:18,179 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7045%2C139.5396%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7045%2C139.5396%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:46:19,496 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.472 千米)
+2025-06-02 12:46:19,496 - INFO - 处理地标: TAIRAYA武蔵境店 (ID: 5q875bht, 来源: Google Maps)
+2025-06-02 12:46:19,497 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:46:20,279 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7052%2C139.5438%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7052%2C139.5438%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:46:28,248 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.351 千米)
+2025-06-02 12:46:28,249 - INFO - 处理地标: 武蔵境通り交差点 (ID: 5q875bj7, 来源: Google Maps)
+2025-06-02 12:46:28,250 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:46:29,085 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.706%2C139.5439%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.706%2C139.5439%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:46:30,486 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.440 千米)
+2025-06-02 12:46:30,486 - INFO - 处理地标: 桜橋交差点 (ID: 5q875chw, 来源: Google Maps)
+2025-06-02 12:46:30,487 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:46:31,279 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7095%2C139.5437%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7095%2C139.5437%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:46:35,940 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.829 千米)
+2025-06-02 12:46:35,940 - INFO - 处理地标: 境浄水場西交差点 (ID: 5q875cmn, 来源: Google Maps)
+2025-06-02 12:46:35,941 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:46:36,563 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7123%2C139.5438%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7123%2C139.5438%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 234
+2025-06-02 12:46:36,564 - WARNING - 在 (35.7123, 139.5438) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:46:36,566 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:46:37,324 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7123%2C139.5438%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A2000%2C35.7123%2C139.5438%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:46:47,828 - INFO - 在 2000m 范围内找到最近站点: 武蔵境 (距离: 1.140 千米)
+2025-06-02 12:46:47,828 - INFO - 处理地标: ガスト関前店 (ID: 5q875cpl, 来源: Google Maps)
+2025-06-02 12:46:47,829 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:46:49,079 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7127%2C139.5415%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7127%2C139.5415%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 234
+2025-06-02 12:46:49,081 - WARNING - 在 (35.7127, 139.5415) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:46:49,083 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:46:51,854 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7127%2C139.5415%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A2000%2C35.7127%2C139.5415%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:46:56,920 - INFO - 在 2000m 范围内找到最近站点: 武蔵境 (距离: 1.204 千米)
+2025-06-02 12:46:56,921 - INFO - 处理地标: ひぐち橋公園 (ID: 5q875d37, 来源: Google Maps)
+2025-06-02 12:46:56,922 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:46:57,473 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7124%2C139.5405%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7124%2C139.5405%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 234
+2025-06-02 12:46:57,474 - WARNING - 在 (35.7124, 139.5405) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:46:57,476 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:46:58,301 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7124%2C139.5405%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A2000%2C35.7124%2C139.5405%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:47:01,998 - INFO - 在 2000m 范围内找到最近站点: 武蔵境 (距离: 1.191 千米)
+2025-06-02 12:47:01,999 - INFO - 处理地标: 境橋交差点 (ID: 5q875czj, 来源: Google Maps)
+2025-06-02 12:47:02,000 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:47:02,570 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.711%2C139.5369%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.711%2C139.5369%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 234
+2025-06-02 12:47:02,572 - WARNING - 在 (35.711, 139.5369) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:47:02,573 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:47:03,294 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.711%2C139.5369%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A2000%2C35.711%2C139.5369%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:47:06,609 - INFO - 在 2000m 范围内找到最近站点: 武蔵境 (距离: 1.178 千米)
+2025-06-02 12:47:06,609 - INFO - 处理地标: 境二丁目第一交差点 (ID: 5q875dfn, 来源: Google Maps)
+2025-06-02 12:47:06,610 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:47:08,380 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7044%2C139.5434%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7044%2C139.5434%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:47:15,345 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.265 千米)
+2025-06-02 12:47:15,345 - INFO - 处理地标: つばさ家武蔵境店 (ID: 5q875dfv, 来源: Google Maps)
+2025-06-02 12:47:15,346 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:47:16,070 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.704%2C139.546%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.704%2C139.546%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:47:17,155 - INFO - 在 1000m 范围内找到最近站点: 武蔵境 (距离: 0.290 千米)
+2025-06-02 12:47:17,156 - INFO - 处理地标: 吉祥寺駅 (ID: 5q875ddu, 来源: Google Maps)
+2025-06-02 12:47:17,156 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:47:18,058 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7031%2C139.5798%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7031%2C139.5798%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:47:19,613 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.046 千米)
+2025-06-02 12:47:19,613 - INFO - 处理地标: 旧バウスシアター (ID: 5q875d87, 来源: Google Maps)
+2025-06-02 12:47:19,614 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:47:20,459 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7061%2C139.581%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7061%2C139.581%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:47:22,945 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.335 千米)
+2025-06-02 12:47:22,945 - INFO - 处理地标: サンロード（4話） (ID: 5q875dcg, 来源: Google Maps)
+2025-06-02 12:47:22,946 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:47:23,792 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7057%2C139.5808%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7057%2C139.5808%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:47:25,235 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.288 千米)
+2025-06-02 12:47:25,236 - INFO - 处理地标: サンロード（12話） (ID: 5q875cyt, 来源: Google Maps)
+2025-06-02 12:47:25,236 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:47:26,141 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7041%2C139.58%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7041%2C139.58%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:47:28,897 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.110 千米)
+2025-06-02 12:47:28,898 - INFO - 处理地标: 黒毛和牛専門店さとう吉祥寺店 (ID: 5q875dvn, 来源: Google Maps)
+2025-06-02 12:47:28,898 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:47:29,746 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.704%2C139.579%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.704%2C139.579%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:47:43,411 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.152 千米)
+2025-06-02 12:47:43,412 - INFO - 处理地标: 旧アニメイト (ID: 5q875dt6, 来源: Google Maps)
+2025-06-02 12:47:43,413 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:47:44,289 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7035%2C139.5771%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7035%2C139.5771%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:47:45,696 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.292 千米)
+2025-06-02 12:47:45,697 - INFO - 处理地标: パルコ前 (ID: 5q875ee1, 来源: Google Maps)
+2025-06-02 12:47:45,698 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:47:46,465 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7034%2C139.5779%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7034%2C139.5779%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:47:49,613 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.219 千米)
+2025-06-02 12:47:49,613 - INFO - 处理地标: 丸井前 (ID: 5q875e10, 来源: Google Maps)
+2025-06-02 12:47:49,614 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:47:50,588 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.702%2C139.5795%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.702%2C139.5795%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:47:57,333 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.083 千米)
+2025-06-02 12:47:57,334 - INFO - 处理地标: 井の頭公園七井橋 (ID: 5q875du8, 来源: Google Maps)
+2025-06-02 12:47:57,334 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:47:58,194 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6999%2C139.5773%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.6999%2C139.5773%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:48:01,512 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.380 千米)
+2025-06-02 12:48:01,513 - INFO - 处理地标: 井の頭公園弁財天 (ID: 5q875ed4, 来源: Google Maps)
+2025-06-02 12:48:01,513 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:02,348 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6994%2C139.5747%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.6994%2C139.5747%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:48:06,349 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.601 千米)
+2025-06-02 12:48:06,349 - INFO - 处理地标: 松亭 (ID: 5q875e0p, 来源: Google Maps)
+2025-06-02 12:48:06,350 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:07,297 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7031%2C139.5884%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7031%2C139.5884%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:48:11,035 - INFO - 在 1000m 范围内找到最近站点: 吉祥寺 (距离: 0.730 千米)
+2025-06-02 12:48:11,035 - INFO - 处理地标: 武蔵小金井駅 (ID: 5q875e8d, 来源: Google Maps)
+2025-06-02 12:48:11,036 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:12,808 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7011%2C139.5066%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7011%2C139.5066%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:48:17,099 - INFO - 在 1000m 范围内找到最近站点: 武蔵小金井 (距离: 0.022 千米)
+2025-06-02 12:48:17,100 - INFO - 处理地标: 小金井橋交差点 (ID: 5q875e15, 来源: Google Maps)
+2025-06-02 12:48:17,100 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:17,646 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7126%2C139.508%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7126%2C139.508%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:48:17,646 - WARNING - 在 (35.7126, 139.508) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:48:17,648 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:18,417 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7126%2C139.508%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A2000%2C35.7126%2C139.508%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:48:19,295 - INFO - 在 2000m 范围内找到最近站点: 武蔵小金井 (距离: 1.280 千米)
+2025-06-02 12:48:19,295 - INFO - 处理地标: 調布飛行場 (ID: 5q875f90, 来源: Google Maps)
+2025-06-02 12:48:19,297 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:19,907 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.672%2C139.5304%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.672%2C139.5304%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:48:19,907 - WARNING - 在 (35.672, 139.5304) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:48:19,909 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:20,550 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.672%2C139.5304%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A2000%2C35.672%2C139.5304%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 31866
+2025-06-02 12:48:20,772 - INFO - 在 2000m 范围内找到最近站点: 多磨 (距离: 1.312 千米)
+2025-06-02 12:48:20,772 - INFO - 处理地标: 小平大沼町交差点 (ID: 5q875f3m, 来源: Google Maps)
+2025-06-02 12:48:20,772 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:21,375 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7404%2C139.5041%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7404%2C139.5041%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:48:21,376 - WARNING - 在 (35.7404, 139.5041) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:48:21,379 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:21,992 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7404%2C139.5041%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A2000%2C35.7404%2C139.5041%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 38949
+2025-06-02 12:48:22,218 - INFO - 在 2000m 范围内找到最近站点: 小平 (距离: 1.478 千米)
+2025-06-02 12:48:22,218 - INFO - 处理地标: 小平大沼町歩道橋 (ID: 5q875f3s, 来源: Google Maps)
+2025-06-02 12:48:22,219 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:23,794 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7397%2C139.5067%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7397%2C139.5067%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:48:23,795 - WARNING - 在 (35.7397, 139.5067) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:48:23,798 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:24,363 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7397%2C139.5067%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A2000%2C35.7397%2C139.5067%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 38949
+2025-06-02 12:48:24,773 - INFO - 在 2000m 范围内找到最近站点: 花小金井 (距离: 1.614 千米)
+2025-06-02 12:48:24,773 - INFO - 处理地标: 栄町一丁目 (ID: 5q875f0q, 来源: Google Maps)
+2025-06-02 12:48:24,774 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:25,477 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7509%2C139.4723%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7509%2C139.4723%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:48:27,626 - INFO - 在 1000m 范围内找到最近站点: 久米川 (距离: 0.139 千米)
+2025-06-02 12:48:27,627 - INFO - 处理地标: 清水五丁目交差点 (ID: 5q875f5t, 来源: Google Maps)
+2025-06-02 12:48:27,627 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:28,242 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7473%2C139.4444%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7473%2C139.4444%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 7074
+2025-06-02 12:48:28,245 - INFO - 在 1000m 范围内找到最近站点: 武蔵大和 (距离: 0.988 千米)
+2025-06-02 12:48:28,245 - INFO - 处理地标: 武蔵大和駅西交差点 (ID: 5q875exl, 来源: Google Maps)
+2025-06-02 12:48:28,245 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:28,819 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7555%2C139.4433%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7555%2C139.4433%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 7074
+2025-06-02 12:48:28,821 - INFO - 在 1000m 范围内找到最近站点: 武蔵大和 (距离: 0.108 千米)
+2025-06-02 12:48:28,822 - INFO - 处理地标: 東伏見四丁目交差点 (ID: 5q875eob, 来源: Google Maps)
+2025-06-02 12:48:28,823 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:29,425 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7231%2C139.5652%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7231%2C139.5652%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 34665
+2025-06-02 12:48:29,638 - INFO - 在 1000m 范围内找到最近站点: 東伏見 (距离: 0.629 千米)
+2025-06-02 12:48:29,638 - INFO - 处理地标: 出玉王田無店 (ID: 5q875fl2, 来源: Google Maps)
+2025-06-02 12:48:29,639 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:30,203 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7356%2C139.5247%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7356%2C139.5247%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:48:30,204 - WARNING - 在 (35.7356, 139.5247) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:48:30,206 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:30,805 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7356%2C139.5247%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A2000%2C35.7356%2C139.5247%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 34925
+2025-06-02 12:48:31,014 - INFO - 在 2000m 范围内找到最近站点: 花小金井 (距离: 1.473 千米)
+2025-06-02 12:48:31,014 - INFO - 处理地标: 田無タワー (ID: 5q875fvg, 来源: Google Maps)
+2025-06-02 12:48:31,014 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:31,577 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7354%2C139.5232%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7354%2C139.5232%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:48:31,577 - WARNING - 在 (35.7354, 139.5232) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:48:31,578 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:32,384 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7354%2C139.5232%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A2000%2C35.7354%2C139.5232%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 34925
+2025-06-02 12:48:32,812 - INFO - 在 2000m 范围内找到最近站点: 花小金井 (距离: 1.364 千米)
+2025-06-02 12:48:32,812 - INFO - 处理地标: 小泉牧場 (ID: 5q875fte, 来源: Google Maps)
+2025-06-02 12:48:32,812 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:33,527 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7544%2C139.5853%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7544%2C139.5853%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 46385
+2025-06-02 12:48:34,047 - INFO - 在 1000m 范围内找到最近站点: 大泉学園 (距离: 0.555 千米)
+2025-06-02 12:48:34,048 - INFO - 处理地标: モトラッド杉並 (ID: 5q875ffd, 来源: Google Maps)
+2025-06-02 12:48:34,048 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:34,645 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7136%2C139.6144%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7136%2C139.6144%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 235
+2025-06-02 12:48:34,646 - WARNING - 在 (35.7136, 139.6144) 周围 1000m 范围内未找到站点，已扩大搜索半径
+2025-06-02 12:48:34,648 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:36,475 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A2000%2C35.7136%2C139.6144%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A2000%2C35.7136%2C139.6144%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:48:38,249 - INFO - 在 2000m 范围内找到最近站点: 荻窪 (距离: 1.140 千米)
+2025-06-02 12:48:38,249 - INFO - 处理地标: 阿佐ヶ谷駅前(パール商店街入り口) (ID: 5q875fl3, 来源: Google Maps)
+2025-06-02 12:48:38,250 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:39,094 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7044%2C139.6367%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7044%2C139.6367%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:48:39,941 - INFO - 在 1000m 范围内找到最近站点: 阿佐ケ谷 (距离: 0.121 千米)
+2025-06-02 12:48:39,942 - INFO - 处理地标: うさぎや (ID: 5q875gp3, 来源: Google Maps)
+2025-06-02 12:48:39,943 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:40,682 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7053%2C139.6377%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7053%2C139.6377%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:48:48,074 - INFO - 在 1000m 范围内找到最近站点: 阿佐ケ谷 (距离: 0.208 千米)
+2025-06-02 12:48:48,074 - INFO - 处理地标: 阿佐ヶ谷駅 (ID: 5q875ghu, 来源: Google Maps)
+2025-06-02 12:48:48,075 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:48,840 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7049%2C139.6357%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7049%2C139.6357%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:48:51,113 - INFO - 在 1000m 范围内找到最近站点: 阿佐ケ谷 (距离: 0.022 千米)
+2025-06-02 12:48:51,113 - INFO - 处理地标: 上井草駅 (ID: 5q875ga2, 来源: Google Maps)
+2025-06-02 12:48:51,114 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:52,513 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7252%2C139.6035%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7252%2C139.6035%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 34768
+2025-06-02 12:48:52,729 - INFO - 在 1000m 范围内找到最近站点: 上井草 (距离: 0.040 千米)
+2025-06-02 12:48:52,729 - INFO - 处理地标: 上井草駅踏切 (ID: 5q875ge1, 来源: Google Maps)
+2025-06-02 12:48:52,729 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:53,402 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.725%2C139.6039%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.725%2C139.6039%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 34566
+2025-06-02 12:48:53,684 - INFO - 在 1000m 范围内找到最近站点: 上井草 (距离: 0.081 千米)
+2025-06-02 12:48:53,684 - INFO - 处理地标: 株式会社ボンズ (ID: 5q875geq, 来源: Google Maps)
+2025-06-02 12:48:53,685 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:55,344 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7249%2C139.6151%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7249%2C139.6151%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 34653
+2025-06-02 12:48:55,983 - INFO - 在 1000m 范围内找到最近站点: 井荻 (距离: 0.024 千米)
+2025-06-02 12:48:55,984 - INFO - 处理地标: 下井草五丁目交差点 (ID: 5q875g1s, 来源: Google Maps)
+2025-06-02 12:48:55,985 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:56,644 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7234%2C139.6142%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7234%2C139.6142%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 34533
+2025-06-02 12:48:57,555 - INFO - 在 1000m 范围内找到最近站点: 井荻 (距离: 0.168 千米)
+2025-06-02 12:48:57,555 - INFO - 处理地标: 四面道交差点 (ID: 5q875git, 来源: Google Maps)
+2025-06-02 12:48:57,556 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:58,303 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.708%2C139.615%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.708%2C139.615%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:48:59,169 - INFO - 在 1000m 范围内找到最近站点: 荻窪 (距离: 0.608 千米)
+2025-06-02 12:48:59,170 - INFO - 处理地标: スタジオカラー (ID: 5q875goy, 来源: Google Maps)
+2025-06-02 12:48:59,171 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:48:59,976 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7035%2C139.5976%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7035%2C139.5976%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:49:01,060 - INFO - 在 1000m 范围内找到最近站点: 西荻窪 (距离: 0.183 千米)
+2025-06-02 12:49:01,061 - INFO - 处理地标: スタジオT＆T (ID: 5q875hhx, 来源: Google Maps)
+2025-06-02 12:49:01,061 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:49:01,912 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6969%2C139.6973%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.6969%2C139.6973%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:49:42,857 - INFO - 在 1000m 范围内找到最近站点: 西武新宿 (距离: 0.261 千米)
+2025-06-02 12:49:42,860 - INFO - 处理地标: 談話室滝沢 (ID: 5q875h8m, 来源: Google Maps)
+2025-06-02 12:49:42,860 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:49:43,481 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6906%2C139.7021%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.6906%2C139.7021%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:49:44,730 - INFO - 在 1000m 范围内找到最近站点: 新宿 (距离: 0.188 千米)
+2025-06-02 12:49:44,732 - INFO - 处理地标: 淀橋交差点 (ID: 5q875gxh, 来源: Google Maps)
+2025-06-02 12:49:44,733 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:49:45,382 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6963%2C139.687%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.6963%2C139.687%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 1262
+2025-06-02 12:49:45,383 - INFO - 在 1000m 范围内找到最近站点: 中野坂上 (距离: 0.384 千米)
+2025-06-02 12:49:45,383 - INFO - 处理地标: 旬鮮酒場天狗新宿店 (ID: 5q875gup, 来源: Google Maps)
+2025-06-02 12:49:45,384 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:49:46,050 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.694%2C139.6986%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.694%2C139.6986%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:49:47,607 - INFO - 在 1000m 范围内找到最近站点: 新宿西口 (距离: 0.109 千米)
+2025-06-02 12:49:47,609 - INFO - 处理地标: H＆M新宿店 (ID: 5q875guu, 来源: Google Maps)
+2025-06-02 12:49:47,609 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:49:48,256 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.6914%2C139.7053%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.6914%2C139.7053%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:50:02,190 - INFO - 在 1000m 范围内找到最近站点: 新宿三丁目 (距离: 0.088 千米)
+2025-06-02 12:50:02,192 - INFO - 处理地标: TOHMA西早稲田ビル (ID: 5q875hje, 来源: Google Maps)
+2025-06-02 12:50:02,193 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:50:03,153 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7081%2C139.7122%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7081%2C139.7122%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 200 None
+2025-06-02 12:50:08,121 - INFO - 在 1000m 范围内找到最近站点: 西早稲田 (距离: 0.286 千米)
+2025-06-02 12:50:08,122 - INFO - 处理地标: ウノサワビル (ID: 5q875gyn, 来源: Google Maps)
+2025-06-02 12:50:08,122 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-06-02 12:50:13,128 - DEBUG - http://127.0.0.1:7890 "GET http://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A++++%28%0A++++++node%5B%22railway%22%3D%22station%22%5D%28around%3A1000%2C35.7077%2C139.6831%29%3B%0A++++++relation%5B%22route%22%3D%22train%22%5D%28around%3A1000%2C35.7077%2C139.6831%29%3B%0A++++%29%3B%0A++++out+body%3B%0A++++%3E%3B%0A++++out+skel+qt%3B%0A++++ HTTP/1.1" 502 0
