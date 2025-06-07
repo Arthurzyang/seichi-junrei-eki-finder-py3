@@ -91,7 +91,6 @@ No configuration required, both are public APIs.
 3. 对每个地标查找最近站点，记录结果。
 4. 保存详细站点信息和统计结果，同时输出到日志。
 
-:::info
 ## APIs
 
 1. **Anitabi API**
@@ -117,12 +116,10 @@ No configuration required, both are public APIs.
 - **`{subject_id}_stations.json`**: 地标信息与最近站点信息。
 - **`{subject_id}_station_counts.txt`**: 站点统计，用于旅行计划。
 - **`station_query.log`**: 日志。
-:::
 
-:::tip
+**Tips**
 - Overpass API和Anitabi API可能会限制请求频率，请适度使用。
 - 可通过修改initial_radius参数调整搜索范围。
-:::
 
 ## 聖地巡礼公共交通駅検索ツール
 
