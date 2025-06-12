@@ -1,0 +1,981 @@
+[
+  {
+    "id": "5q87582w",
+    "name": "武蔵境駅",
+    "image": "https://image.anitabi.cn/points/110467/5q87582w_1731428069465.jpg?plan=h160",
+    "ep": 4,
+    "s": 1241,
+    "geo": [
+      35.702,
+      139.5433
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.702069%2C139.543358&z=17"
+  },
+  {
+    "id": "5q8757tu",
+    "cn": "武藏野站前（武藏野图书馆）",
+    "name": "武蔵野プレイス",
+    "image": "https://image.anitabi.cn/points/110467/5q8757tu_1724563111494_cut.jpg?plan=h160",
+    "ep": 6,
+    "s": 515,
+    "geo": [
+      35.7013,
+      139.5437
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.701369%2C139.543712&z=17"
+  },
+  {
+    "id": "5q87590s",
+    "name": "武蔵野スイングホール",
+    "image": "https://image.anitabi.cn/points/110467/5q87590s_1731427957977.jpg?plan=h160",
+    "ep": 10,
+    "s": 164,
+    "geo": [
+      35.7024,
+      139.5429
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.702492%2C139.542964&z=17"
+  },
+  {
+    "id": "5q875a07",
+    "name": "スキップ通り",
+    "image": "https://image.anitabi.cn/points/110467/5q875a07_1731428034537.jpg?plan=h160",
+    "ep": 4,
+    "s": 1250,
+    "geo": [
+      35.7031,
+      139.5441
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.703172%2C139.54419&z=17"
+  },
+  {
+    "id": "5q875b22",
+    "name": "ベーカリーズカフェクラウン武蔵境店",
+    "image": "https://image.anitabi.cn/points/110467/5q875b22_1731427915584.jpg?plan=h160",
+    "ep": 1,
+    "s": 1354,
+    "geo": [
+      35.7027,
+      139.5419
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.702713%2C139.541949&z=17"
+  },
+  {
+    "id": "5q875aon",
+    "name": "さかい亭",
+    "image": "https://image.anitabi.cn/points/110467/5q875aon_1731427835316.jpg?plan=h160",
+    "ep": 18,
+    "s": 1091,
+    "geo": [
+      35.7046,
+      139.5422
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.704608%2C139.542228&z=17"
+  },
+  {
+    "id": "pz76mfsof",
+    "cn": "东京女子大学正门",
+    "name": "東京女子大学正門",
+    "image": "https://image.anitabi.cn/points/110467/pz76mfsof_1731429428107.jpg?plan=h160",
+    "ep": 10,
+    "s": 216,
+    "geo": [
+      35.7092,
+      139.5914
+    ],
+    "origin": "Anitabi@月即别",
+    "originURL": "https://anitabi.cn/"
+  },
+  {
+    "id": "5q875em2",
+    "name": "くら寿司小金井店",
+    "image": "https://image.anitabi.cn/user/0/bangumi/110467/points/5q875em2-1732980863439.jpg?plan=h160",
+    "ep": 19,
+    "s": 383,
+    "geo": [
+      35.7127,
+      139.5112
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.712747%2C139.511238&z=17"
+  },
+  {
+    "id": "5q875kmm",
+    "name": "神戸市民広場駅",
+    "image": "https://image.anitabi.cn/user/0/bangumi/110467/points/5q875kmm-1697878440574.jpg?plan=h160",
+    "ep": 24,
+    "s": 815,
+    "geo": [
+      34.665,
+      135.2125
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=34.665075%2C135.212586&z=17"
+  },
+  {
+    "id": "5q875btn",
+    "name": "ウルソン武蔵境店",
+    "image": "https://image.anitabi.cn/points/110467/5q875btn_1731427856749.jpg?plan=h160",
+    "geo": [
+      35.7045,
+      139.5396
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.704524%2C139.539697&z=17"
+  },
+  {
+    "id": "5q875bht",
+    "name": "TAIRAYA武蔵境店",
+    "image": "https://image.anitabi.cn/points/110467/5q875bht_1731427661139.jpg?plan=h160",
+    "geo": [
+      35.7052,
+      139.5438
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.705227%2C139.543836&z=17"
+  },
+  {
+    "id": "5q875bj7",
+    "name": "武蔵境通り交差点",
+    "image": "https://image.anitabi.cn/points/110467/5q875bj7_1731427672729.jpg?plan=h160",
+    "geo": [
+      35.706,
+      139.5439
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.706075%2C139.543989&z=17"
+  },
+  {
+    "id": "5q875chw",
+    "name": "桜橋交差点",
+    "image": "https://image.anitabi.cn/points/110467/5q875chw_1731427688479.jpg?plan=h160",
+    "geo": [
+      35.7095,
+      139.5437
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.709545%2C139.54371&z=17"
+  },
+  {
+    "id": "5q875cmn",
+    "name": "境浄水場西交差点",
+    "image": "https://image.anitabi.cn/points/110467/5q875cmn_1731427945842.jpg?plan=h160",
+    "geo": [
+      35.7123,
+      139.5438
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.7123%2C139.543855&z=17"
+  },
+  {
+    "id": "5q875cpl",
+    "name": "ガスト関前店",
+    "image": "https://image.anitabi.cn/points/110467/5q875cpl_1731427781162.jpg?plan=h160",
+    "geo": [
+      35.7127,
+      139.5415
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.712756%2C139.541525&z=17"
+  },
+  {
+    "id": "5q875d37",
+    "name": "ひぐち橋公園",
+    "image": "https://image.anitabi.cn/points/110467/5q875d37_1731427790090.jpg?plan=h160",
+    "geo": [
+      35.7124,
+      139.5405
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.712468%2C139.540515&z=17"
+  },
+  {
+    "id": "5q875czj",
+    "name": "境橋交差点",
+    "image": "https://image.anitabi.cn/points/110467/5q875czj_1731428010531.jpg?plan=h160",
+    "geo": [
+      35.711,
+      139.5369
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.711065%2C139.536971&z=17"
+  },
+  {
+    "id": "5q875dfn",
+    "name": "境二丁目第一交差点",
+    "image": "https://image.anitabi.cn/points/110467/5q875dfn_1731427971834.jpg?plan=h160",
+    "geo": [
+      35.7044,
+      139.5434
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.704403%2C139.543434&z=17"
+  },
+  {
+    "id": "5q875dfv",
+    "name": "つばさ家武蔵境店",
+    "image": "https://image.anitabi.cn/points/110467/5q875dfv_1731427811989.jpg?plan=h160",
+    "geo": [
+      35.704,
+      139.546
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.704067%2C139.546066&z=17"
+  },
+  {
+    "id": "5q875ddu",
+    "name": "吉祥寺駅",
+    "image": "https://image.anitabi.cn/points/110467/5q875ddu_1731428161428.jpg?plan=h160",
+    "geo": [
+      35.7031,
+      139.5798
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.703139%2C139.579874&z=17"
+  },
+  {
+    "id": "5q875d87",
+    "name": "旧バウスシアター",
+    "image": "https://image.anitabi.cn/points/110467/5q875d87_1731428304282.jpg?plan=h160",
+    "geo": [
+      35.7061,
+      139.581
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.706182%2C139.581022&z=17"
+  },
+  {
+    "id": "5q875dcg",
+    "name": "サンロード（4話）",
+    "image": "https://image.anitabi.cn/points/110467/5q875dcg_1731428409355.jpg?plan=h160",
+    "geo": [
+      35.7057,
+      139.5808
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.705718%2C139.58083&z=17"
+  },
+  {
+    "id": "5q875cyt",
+    "name": "サンロード（12話）",
+    "image": "https://image.anitabi.cn/points/110467/5q875cyt_1731428432059.jpg?plan=h160",
+    "geo": [
+      35.7041,
+      139.58
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.704139%2C139.580014&z=17"
+  },
+  {
+    "id": "5q875dvn",
+    "name": "黒毛和牛専門店さとう吉祥寺店",
+    "image": "https://image.anitabi.cn/points/110467/5q875dvn_1731428367691.jpg?plan=h160",
+    "geo": [
+      35.704,
+      139.579
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.70402%2C139.579054&z=17"
+  },
+  {
+    "id": "5q875dt6",
+    "name": "旧アニメイト",
+    "image": "https://image.anitabi.cn/points/110467/5q875dt6_1731428335315.jpg?plan=h160",
+    "geo": [
+      35.7035,
+      139.5771
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.70354%2C139.577101&z=17"
+  },
+  {
+    "id": "5q875ee1",
+    "name": "パルコ前",
+    "image": "https://image.anitabi.cn/points/110467/5q875ee1_1731428387652.jpg?plan=h160",
+    "geo": [
+      35.7034,
+      139.5779
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.703474%2C139.577969&z=17"
+  },
+  {
+    "id": "5q875e10",
+    "name": "丸井前",
+    "image": "https://image.anitabi.cn/points/110467/5q875e10_1731428248459.jpg?plan=h160",
+    "geo": [
+      35.702,
+      139.5795
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.702099%2C139.57951&z=17"
+  },
+  {
+    "id": "5q875du8",
+    "name": "井の頭公園七井橋",
+    "image": "https://image.anitabi.cn/points/110467/5q875du8_1731428274937.jpg?plan=h160",
+    "geo": [
+      35.6999,
+      139.5773
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.699956%2C139.577394&z=17"
+  },
+  {
+    "id": "5q875ed4",
+    "name": "井の頭公園弁財天",
+    "image": "https://image.anitabi.cn/points/110467/5q875ed4_1731428281185.jpg?plan=h160",
+    "geo": [
+      35.6994,
+      139.5747
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.699436%2C139.574785&z=17"
+  },
+  {
+    "id": "5q875e0p",
+    "name": "松亭",
+    "image": "https://image.anitabi.cn/points/110467/5q875e0p_1731428461618.jpg?plan=h160",
+    "geo": [
+      35.7031,
+      139.5884
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.703152%2C139.588438&z=17"
+  },
+  {
+    "id": "5q875e8d",
+    "name": "武蔵小金井駅",
+    "image": "https://image.anitabi.cn/points/110467/5q875e8d_1731428575378.jpg?plan=h160",
+    "geo": [
+      35.7011,
+      139.5066
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.70114%2C139.506644&z=17"
+  },
+  {
+    "id": "5q875e15",
+    "name": "小金井橋交差点",
+    "image": "https://image.anitabi.cn/points/110467/5q875e15_1731428583873.jpg?plan=h160",
+    "geo": [
+      35.7126,
+      139.508
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.712672%2C139.508062&z=17"
+  },
+  {
+    "id": "5q875f90",
+    "name": "調布飛行場",
+    "image": "https://image.anitabi.cn/points/110467/5q875f90_1731429533959.jpg?plan=h160",
+    "geo": [
+      35.672,
+      139.5304
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.672071%2C139.53044&z=17"
+  },
+  {
+    "id": "5q875f3m",
+    "name": "小平大沼町交差点",
+    "image": "https://image.anitabi.cn/points/110467/5q875f3m_1731428669539.jpg?plan=h160",
+    "geo": [
+      35.7404,
+      139.5041
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.740427%2C139.504128&z=17"
+  },
+  {
+    "id": "5q875f3s",
+    "name": "小平大沼町歩道橋",
+    "image": "https://image.anitabi.cn/points/110467/5q875f3s_1731428856547.jpg?plan=h160",
+    "geo": [
+      35.7397,
+      139.5067
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.739771%2C139.506759&z=17"
+  },
+  {
+    "id": "5q875f0q",
+    "name": "栄町一丁目",
+    "image": "https://image.anitabi.cn/points/110467/5q875f0q_1731428699689.jpg?plan=h160",
+    "geo": [
+      35.7509,
+      139.4723
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.750944%2C139.472301&z=17"
+  },
+  {
+    "id": "5q875f5t",
+    "name": "清水五丁目交差点",
+    "image": "https://image.anitabi.cn/points/110467/5q875f5t_1731428716593.jpg?plan=h160",
+    "geo": [
+      35.7473,
+      139.4444
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.747316%2C139.444417&z=17"
+  },
+  {
+    "id": "5q875exl",
+    "name": "武蔵大和駅西交差点",
+    "image": "https://image.anitabi.cn/points/110467/5q875exl_1731428724858.jpg?plan=h160",
+    "geo": [
+      35.7555,
+      139.4433
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.755582%2C139.44338&z=17"
+  },
+  {
+    "id": "5q875eob",
+    "name": "東伏見四丁目交差点",
+    "image": "https://image.anitabi.cn/points/110467/5q875eob_1731428733914.jpg?plan=h160",
+    "geo": [
+      35.7231,
+      139.5652
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.723152%2C139.565263&z=17"
+  },
+  {
+    "id": "5q875fl2",
+    "name": "出玉王田無店",
+    "image": "https://image.anitabi.cn/points/110467/5q875fl2_1731428778299.jpg?plan=h160",
+    "geo": [
+      35.7356,
+      139.5247
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.735627%2C139.52479&z=17"
+  },
+  {
+    "id": "5q875fvg",
+    "cn": "田无塔",
+    "name": "田無タワー",
+    "image": "https://image.anitabi.cn/points/110467/5q875fvg_1731428787594.jpg?plan=h160",
+    "geo": [
+      35.7354,
+      139.5232
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.735411%2C139.523277&z=17"
+  },
+  {
+    "id": "5q875fte",
+    "name": "小泉牧場",
+    "image": "https://image.anitabi.cn/points/110467/5q875fte_1731429736651.jpg?plan=h160",
+    "geo": [
+      35.7544,
+      139.5853
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.754439%2C139.585337&z=17"
+  },
+  {
+    "id": "5q875ffd",
+    "name": "モトラッド杉並",
+    "image": "https://image.anitabi.cn/points/110467/5q875ffd_1731428969932.jpg?plan=h160",
+    "geo": [
+      35.7136,
+      139.6144
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.713626%2C139.614418&z=17"
+  },
+  {
+    "id": "5q875fl3",
+    "name": "阿佐ヶ谷駅前(パール商店街入り口)",
+    "image": "https://image.anitabi.cn/points/110467/5q875fl3_1731428991135.jpg?plan=h160",
+    "geo": [
+      35.7044,
+      139.6367
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.704421%2C139.636787&z=17"
+  },
+  {
+    "id": "5q875gp3",
+    "name": "うさぎや",
+    "image": "https://image.anitabi.cn/points/110467/5q875gp3_1731429077917.jpg?plan=h160",
+    "geo": [
+      35.7053,
+      139.6377
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.705301%2C139.637729&z=17"
+  },
+  {
+    "id": "5q875ghu",
+    "name": "阿佐ヶ谷駅",
+    "image": "https://image.anitabi.cn/points/110467/5q875ghu_1731429012168.jpg?plan=h160",
+    "geo": [
+      35.7049,
+      139.6357
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.704908%2C139.635737&z=17"
+  },
+  {
+    "id": "5q875ga2",
+    "name": "上井草駅",
+    "image": "https://image.anitabi.cn/points/110467/5q875ga2_1731429047882.jpg?plan=h160",
+    "geo": [
+      35.7252,
+      139.6035
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.7252%2C139.603576&z=17"
+  },
+  {
+    "id": "5q875ge1",
+    "name": "上井草駅踏切",
+    "image": "https://image.anitabi.cn/points/110467/5q875ge1_1731429035857.jpg?plan=h160",
+    "geo": [
+      35.725,
+      139.6039
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.725092%2C139.603901&z=17"
+  },
+  {
+    "id": "5q875geq",
+    "name": "株式会社ボンズ",
+    "image": "https://image.anitabi.cn/points/110467/5q875geq_1731429109244.jpg?plan=h160",
+    "geo": [
+      35.7249,
+      139.6151
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.724943%2C139.615177&z=17"
+  },
+  {
+    "id": "5q875g1s",
+    "name": "下井草五丁目交差点",
+    "image": "https://image.anitabi.cn/points/110467/5q875g1s_1731429168442.jpg?plan=h160",
+    "geo": [
+      35.7234,
+      139.6142
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.723412%2C139.614258&z=17"
+  },
+  {
+    "id": "5q875git",
+    "name": "四面道交差点",
+    "image": "https://image.anitabi.cn/points/110467/5q875git_1731429137599.jpg?plan=h160",
+    "geo": [
+      35.708,
+      139.615
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.708084%2C139.61508&z=17"
+  },
+  {
+    "id": "5q875goy",
+    "name": "スタジオカラー",
+    "image": "https://image.anitabi.cn/points/110467/5q875goy_1731429148039.jpg?plan=h160",
+    "geo": [
+      35.7035,
+      139.5976
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.703502%2C139.59761&z=17"
+  },
+  {
+    "id": "5q875hhx",
+    "name": "スタジオT＆T",
+    "image": "https://image.anitabi.cn/points/110467/5q875hhx_1731430383820.jpg?plan=h160",
+    "geo": [
+      35.6969,
+      139.6973
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.696937%2C139.69737&z=17"
+  },
+  {
+    "id": "5q875h8m",
+    "name": "談話室滝沢",
+    "image": "https://image.anitabi.cn/points/110467/5q875h8m_1731430394425.jpg?plan=h160",
+    "geo": [
+      35.6906,
+      139.7021
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.690637%2C139.702163&z=17"
+  },
+  {
+    "id": "5q875gxh",
+    "name": "淀橋交差点",
+    "image": "https://image.anitabi.cn/points/110467/5q875gxh_1731430402931.jpg?plan=h160",
+    "geo": [
+      35.6963,
+      139.687
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.696397%2C139.687053&z=17"
+  },
+  {
+    "id": "5q875gup",
+    "name": "旬鮮酒場天狗新宿店",
+    "image": "https://image.anitabi.cn/points/110467/5q875gup_1731430411143.jpg?plan=h160",
+    "geo": [
+      35.694,
+      139.6986
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.694099%2C139.698678&z=17"
+  },
+  {
+    "id": "5q875guu",
+    "name": "H＆M新宿店",
+    "image": "https://image.anitabi.cn/points/110467/5q875guu_1731430439622.jpg?plan=h160",
+    "geo": [
+      35.6914,
+      139.7053
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.691443%2C139.705373&z=17"
+  },
+  {
+    "id": "5q875hje",
+    "name": "TOHMA西早稲田ビル",
+    "image": "https://image.anitabi.cn/points/110467/5q875hje_1731430447829.jpg?plan=h160",
+    "geo": [
+      35.7081,
+      139.7122
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.708192%2C139.71226&z=17"
+  },
+  {
+    "id": "5q875gyn",
+    "name": "ウノサワビル",
+    "image": "https://image.anitabi.cn/points/110467/5q875gyn_1731430457567.jpg?plan=h160",
+    "geo": [
+      35.7077,
+      139.6831
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.707712%2C139.683134&z=17"
+  },
+  {
+    "id": "5q875h10",
+    "name": "VICTOR STUDIO",
+    "image": "https://image.anitabi.cn/points/110467/5q875h10_1731430469412.jpg?plan=h160",
+    "geo": [
+      35.675,
+      139.7123
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.675019%2C139.712393&z=17"
+  },
+  {
+    "id": "5q875hy5",
+    "name": "秋葉原駅電気街口",
+    "image": "https://image.anitabi.cn/points/110467/5q875hy5_1731430527178.jpg?plan=h160",
+    "geo": [
+      35.6985,
+      139.7725
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.698586%2C139.77255&z=17"
+  },
+  {
+    "id": "5q875hpx",
+    "name": "UDX",
+    "image": "https://image.anitabi.cn/points/110467/5q875hpx_1731430539079.jpg?plan=h160",
+    "geo": [
+      35.7001,
+      139.7723
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.700101%2C139.772334&z=17"
+  },
+  {
+    "id": "5q875hty",
+    "name": "ソフマップ",
+    "image": "https://image.anitabi.cn/points/110467/5q875hty_1731430567208.jpg?plan=h160",
+    "geo": [
+      35.7003,
+      139.7711
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.700317%2C139.771198&z=17"
+  },
+  {
+    "id": "5q875hsj",
+    "name": "雷門",
+    "image": "https://image.anitabi.cn/points/110467/5q875hsj_1731430641234.jpg?plan=h160",
+    "geo": [
+      35.711,
+      139.7963
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.711085%2C139.796367&z=17"
+  },
+  {
+    "id": "5q875i06",
+    "name": "スーパードライホール",
+    "image": "https://image.anitabi.cn/points/110467/5q875i06_1731430659092.jpg?plan=h160",
+    "geo": [
+      35.7097,
+      139.8002
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.709794%2C139.80025&z=17"
+  },
+  {
+    "id": "5q875i7r",
+    "name": "東京スカイツリー",
+    "image": "https://image.anitabi.cn/points/110467/5q875i7r_1731430697480.jpg?plan=h160",
+    "geo": [
+      35.7104,
+      139.8106
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.710434%2C139.810617&z=17"
+  },
+  {
+    "id": "5q875hpz",
+    "name": "ラ ブティック ドゥ ジョエル・ロブション 丸の内店",
+    "image": "https://image.anitabi.cn/points/110467/5q875hpz_1731430672483.jpg?plan=h160",
+    "geo": [
+      35.6783,
+      139.7625
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.678377%2C139.762552&z=17"
+  },
+  {
+    "id": "5q875i4u",
+    "name": "新丸の内ビル",
+    "image": "https://image.anitabi.cn/points/110467/5q875i4u_1731430680449.jpg?plan=h160",
+    "geo": [
+      35.6825,
+      139.7644
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.682581%2C139.764408&z=17"
+  },
+  {
+    "id": "5q875img",
+    "name": "スカイホップバス乗り場",
+    "image": "https://image.anitabi.cn/points/110467/5q875img_1731430631604.jpg?plan=h160",
+    "geo": [
+      35.6797,
+      139.7638
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.679798%2C139.763875&z=17"
+  },
+  {
+    "id": "5q875igx",
+    "name": "日比谷セントラルビル",
+    "image": "https://image.anitabi.cn/points/110467/5q875igx_1731430847831.jpg?plan=h160",
+    "geo": [
+      35.6697,
+      139.7545
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.669748%2C139.75455&z=17"
+  },
+  {
+    "id": "5q875ipv",
+    "name": "日比谷シティー",
+    "image": "https://image.anitabi.cn/points/110467/5q875ipv_1731430855064.jpg?plan=h160",
+    "geo": [
+      35.6701,
+      139.7542
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.670101%2C139.754201&z=17"
+  },
+  {
+    "id": "5q875ieh",
+    "name": "知性ビル",
+    "image": "https://image.anitabi.cn/points/110467/5q875ieh_1731430774050.jpg?plan=h160",
+    "geo": [
+      35.677,
+      139.7327
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.677083%2C139.73274&z=17"
+  },
+  {
+    "id": "5q875iwz",
+    "name": "知性ビル周辺路地",
+    "image": "https://image.anitabi.cn/points/110467/5q875iwz_1731430806151.jpg?plan=h160",
+    "geo": [
+      35.677,
+      139.7331
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.677014%2C139.733111&z=17"
+  },
+  {
+    "id": "5q875iym",
+    "name": "大月駅",
+    "image": "https://image.anitabi.cn/points/110467/5q875iym_1731430912151.jpg?plan=h160",
+    "geo": [
+      35.6131,
+      138.9427
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.613144%2C138.942789&z=17"
+  },
+  {
+    "id": "5q875irq",
+    "name": "嵐山サービスエリア(下り)",
+    "image": "https://image.anitabi.cn/points/110467/5q875irq_1731430967281.jpg?plan=h160",
+    "geo": [
+      36.0861,
+      139.291
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=36.086142%2C139.291012&z=17"
+  },
+  {
+    "id": "5q875ivz",
+    "name": "嵐山サービスエリア(上り)",
+    "image": "https://image.anitabi.cn/points/110467/5q875ivz_1731430975006.jpg?plan=h160",
+    "geo": [
+      36.0827,
+      139.2975
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=36.082717%2C139.297589&z=17"
+  },
+  {
+    "id": "5q875j4b",
+    "name": "富士急ハイランド",
+    "image": "https://image.anitabi.cn/points/110467/5q875j4b_1731430990658.jpg?plan=h160",
+    "geo": [
+      35.4853,
+      138.7773
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=35.485359%2C138.777334&z=17"
+  },
+  {
+    "id": "5q875jgq",
+    "name": "浜松エアーパーク",
+    "image": "https://image.anitabi.cn/points/110467/5q875jgq_1731431077413.jpg?plan=h160",
+    "geo": [
+      34.7475,
+      137.712
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=34.747541%2C137.712055&z=17"
+  },
+  {
+    "id": "5q875j5j",
+    "name": "長野自動車道",
+    "image": "https://image.anitabi.cn/points/110467/5q875j5j_1731431287501.jpg?plan=h160",
+    "geo": [
+      36.2291,
+      137.9385
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=36.229184%2C137.938589&z=17"
+  },
+  {
+    "id": "5q875jrw",
+    "name": "長野インター",
+    "image": "https://image.anitabi.cn/points/110467/5q875jrw_1731431131352.jpg?plan=h160",
+    "geo": [
+      36.2302,
+      137.9402
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=36.230289%2C137.94028&z=17"
+  },
+  {
+    "id": "5q875j9v",
+    "name": "三溝駅周辺",
+    "image": "https://image.anitabi.cn/points/110467/5q875j9v_1731431149962.jpg?plan=h160",
+    "geo": [
+      36.213,
+      137.8918
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=36.213095%2C137.891808&z=17"
+  },
+  {
+    "id": "5q875jp0",
+    "name": "波田小前",
+    "image": "https://image.anitabi.cn/points/110467/5q875jp0_1731431171219.jpg?plan=h160",
+    "geo": [
+      36.2013,
+      137.8556
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=36.201375%2C137.855616&z=17"
+  },
+  {
+    "id": "5q875jcc",
+    "name": "道の駅風穴の里",
+    "image": "https://image.anitabi.cn/points/110467/5q875jcc_1731431180250.jpg?plan=h160",
+    "geo": [
+      36.1536,
+      137.7528
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=36.153619%2C137.752888&z=17"
+  },
+  {
+    "id": "5q875jcn",
+    "name": "奈川渡ダム",
+    "image": "https://image.anitabi.cn/points/110467/5q875jcn_1731431189060.jpg?plan=h160",
+    "geo": [
+      36.1316,
+      137.7189
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=36.131642%2C137.718934&z=17"
+  },
+  {
+    "id": "5q875jpq",
+    "name": "上高地帝国ホテル",
+    "image": "https://image.anitabi.cn/points/110467/5q875jpq_1731431198138.jpg?plan=h160",
+    "geo": [
+      36.2426,
+      137.6287
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=36.242654%2C137.628703&z=17"
+  },
+  {
+    "id": "5q875ju3",
+    "name": "南砺市起業家支援センター",
+    "image": "https://image.anitabi.cn/points/110467/5q875ju3_1731431258669.jpg?plan=h160",
+    "geo": [
+      36.512,
+      136.9015
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=36.512034%2C136.901506&z=17"
+  },
+  {
+    "id": "5q875k2y",
+    "name": "中国放送本社",
+    "image": "https://image.anitabi.cn/user/0/bangumi/110467/points/5q875k2y-1732981300843.jpg?plan=h160",
+    "ep": null,
+    "geo": [
+      34.4019,
+      132.4616
+    ],
+    "origin": "Google Maps",
+    "originURL": "https://www.google.com/maps/d/viewer?mid=1CS8ngrrzFoJtkvwLuNVixBuKvdY&ll=34.401951%2C132.461677&z=17"
+  }
+]
