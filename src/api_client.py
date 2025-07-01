@@ -6,7 +6,8 @@ from src.logging_config import configureLogging
 logger = configureLogging()
 OUTPUT_DIR = "../Outputs"
 
-"""
+""" Previous ver.
+
 def fetchNearestStations(targetLat, targetLon, radius):
     query = f'[out:json][timeout:60];(node["railway"="station"](around:{radius},{targetLat},{targetLon});node["station"="subway"](around:{radius},{targetLat},{targetLon}););out body;>;out skel qt;'
     url = "https://overpass-api.de/api/interpreter"
