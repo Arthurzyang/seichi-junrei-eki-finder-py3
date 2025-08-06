@@ -7,6 +7,8 @@
 This is a script that retrieves Seichi Junrei landmarks through the [Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md). It uses the [Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API) to search for the nearest tram/subway station for each landmark, with a default initial search radius by 1 km and a maximum search radius by 8km. It calculates the distance between the landmark and the station and counts the number of landmarks associated with each station.
 The reason that I create this tool is to support the travelers who want to plan their Seichi Junrei travels in Japan, especially for the cities with complex network like Tokyo :D You might find difficult when you try to plan your travel routes with various anime.
 
+(07/08/2025) Ive upload a tampermonkey script for this repository. So you can use the functions directly thourgh Anitabi web pages. See[seichi-junrei-eki-finder-tampermonkey-scripts](https://github.com/Arthurzyang/seichi-junrei-eki-finder-tampermonkey-scripts)
+
 ## Features
 
 1. **Get Landmark Data**
@@ -66,6 +68,7 @@ No configuration required, both are public APIs.
 
 这是一个脚本，根据Bangumi作品ID，通过[Anitabi APIs](https://github.com/anitabi/anitabi.cn-document/blob/main/api.md)获取对应动画的圣地巡礼地标信息，然后通过[Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)搜索离每个地标直线距离最近的轨道交通（电车/地铁）站点，默认初始搜索半径为1公里，默认最大搜索半径为8公里。计算地标与站点的距离，并统计每个站点的地标数量。
 我创建这个工具的目的是帮助想要规划日本圣地巡礼的旅行者，尤其是在像东京这样交通网络复杂的大城市 :D 当你尝试规划包含复数作品的旅行路线时，你可能会发现这很困难。
+(2025/08/07)我创建了一个油猴脚本，更好地集成了这些功能，可以直接在Anitabi的页面上通过按钮发送和解析请求。详见：[seichi-junrei-eki-finder-tampermonkey-scripts](https://github.com/Arthurzyang/seichi-junrei-eki-finder-tampermonkey-scripts)
 
 ## 功能
 
