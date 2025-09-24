@@ -40,7 +40,6 @@ The reason that I create this tool is to support the travelers who want to plan 
    - **Parameters**: `haveImage` (optional, `true` filters landmarks with images, default is `false`)【This might not work】
    - **Purpose**: Query landmark information for specific anime based on its Bangumi ID. 
    - **Response Data**: Landmark list containing fields like `id`, `name`, `geo`, `origin`, `originURL`, etc.
-   - **License**: CC BY-NC-SA 4.0 (Attribution, Non-Commercial Use, ShareAlike).
 
 2. **Overpass API (OpenStreetMap)**
    - **Reference**: [Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)
