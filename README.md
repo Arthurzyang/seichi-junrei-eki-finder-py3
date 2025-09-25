@@ -157,7 +157,6 @@ No configuration required, both are public APIs.
    - **パラメータ**: `haveImage`（オプション、`true`で画像付きのランドマークをフィルタリング、デフォルトは`false`）【このパラメータは未対応の可能性があります】
    - **用途**: BangumiエントリIDを使用して、特定のアニメの聖地巡礼のランドマーク情報を取得します。BangumiエントリIDは、エントリのURLから取得できます。
    - **レスポンスデータ**: `id`、`name`、`geo`、`origin`、`originURL`などを含むランドマークのリスト。
-   - **ライセンス**: CC BY-NC-SA 4.0（帰属、非商業利用、同じ方法で共有）
 
 2. **Overpass API（OpenStreetMap）**
    - **参考**: [Overpass APIs](https://wiki.openstreetmap.org/wiki/Overpass_API)
